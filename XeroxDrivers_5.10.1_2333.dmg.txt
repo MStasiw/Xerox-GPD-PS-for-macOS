@@ -1,0 +1,11 @@
+<Source: https://www.support.xerox.com/en-us/product/versalink-c405/content/154041>
+
+macOS Print and Scan Driver Installer
+
+Description
+Downloads and installs the Xerox Print and Scan (TWAIN/ICA) Drivers for macOS.
+
+Released: 02/15/2022
+Version: 5.10.1_2333
+Size: 89.97 MB
+Filename: XeroxDrivers_5.10.1_2333.dmg
