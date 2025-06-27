@@ -1,0 +1,984 @@
+; PostScript(R) Print Driver INF file
+;
+; Xerox Global Print Driver
+;
+; For 64-Bit x64 CPUs
+;
+; Copyright (c) 2000-2013 Xerox Corporation. All rights reserved.
+
+[Version]
+Signature="$Windows NT$"
+Provider="Xerox"
+ClassGUID={4D36E979-E325-11CE-BFC1-08002BE10318}
+Class=Printer
+
+CatalogFile=x2UNIVP.cat
+
+DriverVer=11/15/2013,5347.600.0.0
+
+DriverIsolation=2 
+
+;
+; OEM URLS:
+;
+
+[OEM URLS]
+"Xerox"="http://www.xerox.com"
+
+;
+; Manufacturer section.
+;
+
+[Manufacturer]
+"Xerox"=Models, NTamd64, NTamd64.6.0
+
+; LAN Fax Phonebook Dll
+[LANFAX_PKG_FILES]
+x2fpd02.dll
+
+[PrinterPackageInstallation.amd64]
+PackageAware=TRUE
+
+CoreDriverDependencies={D20EA372-DD35-4950-9ED8-A6335AFE79F1}
+
+;
+; Model sections. 
+; 
+; Each section here corresponds with an entry listed in the
+; [Manufacturer] section, above. The models will be displayed in the order
+; that they appear in the INF file.
+;
+
+[Models.NTamd64]
+%Xerox_UPD_0% = Install_UNIVP_PS_RedistPscript, WSDPRINT\XeroxDT_180_HLC_Publ70C3,USBPRINT\XeroxDT_180_HLC_Publ70C3,XeroxDT_180_HLC_Publ70C3
+%Xerox_UPD_0% = Install_UNIVP_PS_RedistPscript, WSDPRINT\XeroxDT_155_HLC_Publ4C78,USBPRINT\XeroxDT_155_HLC_Publ4C78,XeroxDT_155_HLC_Publ4C78
+%Xerox_UPD_0% = Install_UNIVP_PS_RedistPscript, WSDPRINT\XeroxDT_128_HLC_Publ7BF7,USBPRINT\XeroxDT_128_HLC_Publ7BF7,XeroxDT_128_HLC_Publ7BF7
+%Xerox_UPD_0% = Install_UNIVP_PS_RedistPscript, WSDPRINT\XeroxDocuTech_180_PrAB02,USBPRINT\XeroxDocuTech_180_PrAB02,XeroxDocuTech_180_PrAB02
+%Xerox_UPD_0% = Install_UNIVP_PS_RedistPscript, WSDPRINT\XeroxDocuTech_155_Pr4903,USBPRINT\XeroxDocuTech_155_Pr4903,XeroxDocuTech_155_Pr4903
+%Xerox_UPD_0% = Install_UNIVP_PS_RedistPscript, WSDPRINT\XeroxDocuTech_128_Pr4903,USBPRINT\XeroxDocuTech_128_Pr4903,XeroxDocuTech_128_Pr4903
+%Xerox_UPD_0% = Install_UNIVP_PS_RedistPscript, WSDPRINT\XeroxWorkCentre_C242D2F1,USBPRINT\XeroxWorkCentre_C242D2F1,XeroxWorkCentre_C242D2F1
+%Xerox_UPD_0% = Install_UNIVP_PS_RedistPscript, wsdprint\XeroxPhaser_3300_MFPCCD4,XeroxPhaser_3300MFP463C
+%Xerox_UPD_0% = Install_UNIVP_PS_RedistPscript, wsdprint\XeroxWorkCentre_35503CCC,XeroxWorkCentre_3550C026
+%Xerox_UPD_0% = Install_UNIVP_PS_RedistPscript, wsdprint\XeroxPhaser_3600_PS6C62,XeroxWorkCentre_360016DD
+%Xerox_UPD_0% = Install_UNIVP_PS_RedistPscript, WSDPRINT\XeroxXXP4410_8DE9,USBPRINT\XeroxXXP4410_8DE9,XeroxXXP4410_8DE9
+%Xerox_UPD_0% = Install_UNIVP_PS_RedistPscript, WSDPRINT\XeroxXXP4590_B369,USBPRINT\XeroxXXP4590_B369,XeroxXXP4590_B369
+%Xerox_UPD_0% = Install_UNIVP_PS_RedistPscript, WSDPRINT\XeroxXXP4410_EPS4CD9,USBPRINT\XeroxXXP4410_EPS4CD9,XeroxXXP4410_EPS4CD9
+%Xerox_UPD_0% = Install_UNIVP_PS_RedistPscript, WSDPRINT\XeroxXXP4590_EPSC4C8,USBPRINT\XeroxXXP4590_EPSC4C8,XeroxXXP4590_EPSC4C8
+%Xerox_UPD_0% = Install_UNIVP_PS_RedistPscript, WSDPRINT\XeroxXXP4595_E36A,USBPRINT\XeroxXXP4595_E36A,XeroxXXP4595_E36A
+%Xerox_UPD_0% = Install_UNIVP_PS_RedistPscript, WSDPRINT\XeroxXXP4595_EPSC406,USBPRINT\XeroxXXP4595_EPSC406,XeroxXXP4595_EPSC406
+%Xerox_UPD_0% = Install_UNIVP_PS_RedistPscript, WSDPRINT\XeroxFreeFlow_4112_C63DD,USBPRINT\XeroxFreeFlow_4112_C63DD,XeroxFreeFlow_4112_C63DD
+%Xerox_UPD_0% = Install_UNIVP_PS_RedistPscript, WSDPRINT\XeroxFreeFlow_4112_E2243,USBPRINT\XeroxFreeFlow_4112_E2243,XeroxFreeFlow_4112_E2243
+%Xerox_UPD_0% = Install_UNIVP_PS_RedistPscript, WSDPRINT\XeroxFreeFlow_4127_C4AD5,USBPRINT\XeroxFreeFlow_4127_C4AD5,XeroxFreeFlow_4127_C4AD5
+%Xerox_UPD_0% = Install_UNIVP_PS_RedistPscript, WSDPRINT\XeroxFreeFlow_4112_E4914,USBPRINT\XeroxFreeFlow_4112_E4914,XeroxFreeFlow_4112_E4914
+%Xerox_UPD_0% = Install_UNIVP_PS_RedistPscript, WSDPRINT\XeroxPhaser_4500B70E3,USBPRINT\XeroxPhaser_4500B70E3,XeroxPhaser_4500B70E3
+%Xerox_UPD_0% = Install_UNIVP_PS_RedistPscript, WSDPRINT\XeroxPhaser_4500N75E3,USBPRINT\XeroxPhaser_4500N75E3,XeroxPhaser_4500N75E3
+%Xerox_UPD_0% = Install_UNIVP_PS_RedistPscript, WSDPRINT\XeroxPhaser_4500DTD633,USBPRINT\XeroxPhaser_4500DTD633,XeroxPhaser_4500DTD633
+%Xerox_UPD_0% = Install_UNIVP_PS_RedistPscript, WSDPRINT\XeroxPhaser_4500DXD333,USBPRINT\XeroxPhaser_4500DXD333,XeroxPhaser_4500DXD333
+%Xerox_UPD_0% = Install_UNIVP_PS_RedistPscript, WSDPRINT\XeroxPhaser_4510B4CB3,USBPRINT\XeroxPhaser_4510B4CB3,XeroxPhaser_4510B4CB3
+%Xerox_UPD_0% = Install_UNIVP_PS_RedistPscript, WSDPRINT\XeroxPhaser_4510N49B3,USBPRINT\XeroxPhaser_4510N49B3,XeroxPhaser_4510N49B3
+%Xerox_UPD_0% = Install_UNIVP_PS_RedistPscript, WSDPRINT\XeroxPhaser_4510DTEA0F,USBPRINT\XeroxPhaser_4510DTEA0F,XeroxPhaser_4510DTEA0F
+%Xerox_UPD_0% = Install_UNIVP_PS_RedistPscript, WSDPRINT\XeroxPhaser_4510DXEF0F,USBPRINT\XeroxPhaser_4510DXEF0F,XeroxPhaser_4510DXEF0F
+%Xerox_UPD_0% = Install_UNIVP_PS_RedistPscript, WSDPRINT\XeroxPhaser_5500B4CDF,USBPRINT\XeroxPhaser_5500B4CDF,XeroxPhaser_5500B4CDF
+%Xerox_UPD_0% = Install_UNIVP_PS_RedistPscript, WSDPRINT\XeroxPhaser_5500N49DF,USBPRINT\XeroxPhaser_5500N49DF,XeroxPhaser_5500N49DF
+%Xerox_UPD_0% = Install_UNIVP_PS_RedistPscript, WSDPRINT\XeroxPhaser_5500DN0C8E,USBPRINT\XeroxPhaser_5500DN0C8E,XeroxPhaser_5500DN0C8E
+%Xerox_UPD_0% = Install_UNIVP_PS_RedistPscript, WSDPRINT\XeroxPhaser_5500DTC70F,USBPRINT\XeroxPhaser_5500DTC70F,XeroxPhaser_5500DTC70F
+%Xerox_UPD_0% = Install_UNIVP_PS_RedistPscript, WSDPRINT\XeroxPhaser_5500DXC20F,USBPRINT\XeroxPhaser_5500DXC20F,XeroxPhaser_5500DXC20F
+%Xerox_UPD_0% = Install_UNIVP_PS_RedistPscript, WSDPRINT\XeroxPhaser_5550B4DCF,USBPRINT\XeroxPhaser_5550B4DCF,XeroxPhaser_5550B4DCF
+%Xerox_UPD_0% = Install_UNIVP_PS_RedistPscript, WSDPRINT\XeroxPhaser_5550N48CF,USBPRINT\XeroxPhaser_5550N48CF,XeroxPhaser_5550N48CF
+%Xerox_UPD_0% = Install_UNIVP_PS_RedistPscript, WSDPRINT\XeroxPhaser_5550DNC08E,USBPRINT\XeroxPhaser_5550DNC08E,XeroxPhaser_5550DNC08E
+%Xerox_UPD_0% = Install_UNIVP_PS_RedistPscript, WSDPRINT\XeroxPhaser_5550DT0B0F,USBPRINT\XeroxPhaser_5550DT0B0F,XeroxPhaser_5550DT0B0F
+%Xerox_UPD_0% = Install_UNIVP_PS_RedistPscript, WSDPRINT\XeroxPhaser_6180NFF1B,USBPRINT\XeroxPhaser_6180NFF1B,XeroxPhaser_6180NFF1B
+%Xerox_UPD_0% = Install_UNIVP_PS_RedistPscript, WSDPRINT\XeroxPhaser_6180DN9F39,USBPRINT\XeroxPhaser_6180DN9F39,XeroxPhaser_6180DN9F39
+%Xerox_UPD_0% = Install_UNIVP_PS_RedistPscript, WSDPRINT\XeroxPhaser_6180DT54B8,USBPRINT\XeroxPhaser_6180DT54B8,XeroxPhaser_6180DT54B8
+%Xerox_UPD_0% = Install_UNIVP_PS_RedistPscript, WSDPRINT\XeroxPhaser_6180DT54B8,USBPRINT\XeroxPhaser_6180DT54B8,XeroxPhaser_6180DT54B8
+%Xerox_UPD_0% = Install_UNIVP_PS_RedistPscript, WSDPRINT\XeroxPhaser_6250B398A,USBPRINT\XeroxPhaser_6250B398A,XeroxPhaser_6250B398A
+%Xerox_UPD_0% = Install_UNIVP_PS_RedistPscript, WSDPRINT\XeroxPhaser_6250N3C8A,USBPRINT\XeroxPhaser_6250N3C8A,XeroxPhaser_6250N3C8A
+%Xerox_UPD_0% = Install_UNIVP_PS_RedistPscript, WSDPRINT\XeroxPhaser_6250DP3BBB,USBPRINT\XeroxPhaser_6250DP3BBB,XeroxPhaser_6250DP3BBB
+%Xerox_UPD_0% = Install_UNIVP_PS_RedistPscript, WSDPRINT\XeroxPhaser_6250DTF8BA,USBPRINT\XeroxPhaser_6250DTF8BA,XeroxPhaser_6250DTF8BA
+%Xerox_UPD_0% = Install_UNIVP_PS_RedistPscript, WSDPRINT\XeroxPhaser_6250DXFDBA,USBPRINT\XeroxPhaser_6250DXFDBA,XeroxPhaser_6250DXFDBA
+%Xerox_UPD_0% = Install_UNIVP_PS_RedistPscript, WSDPRINT\XeroxPhaser_6280NFF1B,USBPRINT\XeroxPhaser_6280NFF1B,XeroxPhaser_6280NFF1B
+%Xerox_UPD_0% = Install_UNIVP_PS_RedistPscript, WSDPRINT\XeroxPhaser_6280DN9F39,USBPRINT\XeroxPhaser_6280DN9F39,XeroxPhaser_6280DN9F39
+%Xerox_UPD_0% = Install_UNIVP_PS_RedistPscript, WSDPRINT\XeroxPhaser_6280DT54B8,USBPRINT\XeroxPhaser_6280DT54B8,XeroxPhaser_6280DT54B8
+%Xerox_UPD_0% = Install_UNIVP_PS_RedistPscript, WSDPRINT\XeroxPhaser_6300NC19B,USBPRINT\XeroxPhaser_6300NC19B,XeroxPhaser_6300NC19B
+%Xerox_UPD_0% = Install_UNIVP_PS_RedistPscript, WSDPRINT\XeroxPhaser_6300DN3F06,USBPRINT\XeroxPhaser_6300DN3F06,XeroxPhaser_6300DN3F06
+%Xerox_UPD_0% = Install_UNIVP_PS_RedistPscript, WSDPRINT\XeroxPhaser_6350DPFB86,USBPRINT\XeroxPhaser_6350DPFB86,XeroxPhaser_6350DPFB86
+%Xerox_UPD_0% = Install_UNIVP_PS_RedistPscript, WSDPRINT\XeroxPhaser_6350DT3887,USBPRINT\XeroxPhaser_6350DT3887,XeroxPhaser_6350DT3887
+%Xerox_UPD_0% = Install_UNIVP_PS_RedistPscript, WSDPRINT\XeroxPhaser_6350DX3D87,USBPRINT\XeroxPhaser_6350DX3D87,XeroxPhaser_6350DX3D87
+%Xerox_UPD_0% = Install_UNIVP_PS_RedistPscript, WSDPRINT\XeroxPhaser_6360NC07B,USBPRINT\XeroxPhaser_6360NC07B,XeroxPhaser_6360NC07B
+%Xerox_UPD_0% = Install_UNIVP_PS_RedistPscript, WSDPRINT\XeroxPhaser_6360DNB706,USBPRINT\XeroxPhaser_6360DNB706,XeroxPhaser_6360DNB706
+%Xerox_UPD_0% = Install_UNIVP_PS_RedistPscript, WSDPRINT\XeroxPhaser_6360DT7C87,USBPRINT\XeroxPhaser_6360DT7C87,XeroxPhaser_6360DT7C87
+%Xerox_UPD_0% = Install_UNIVP_PS_RedistPscript, WSDPRINT\XeroxPhaser_6360DX7987,USBPRINT\XeroxPhaser_6360DX7987,XeroxPhaser_6360DX7987
+%Xerox_UPD_0% = Install_UNIVP_PS_RedistPscript, WSDPRINT\XeroxPhaser_7400N15A6,USBPRINT\XeroxPhaser_7400N15A6,XeroxPhaser_7400N15A6
+%Xerox_UPD_0% = Install_UNIVP_PS_RedistPscript, WSDPRINT\XeroxPhaser_7400DNEE13,USBPRINT\XeroxPhaser_7400DNEE13,XeroxPhaser_7400DNEE13
+%Xerox_UPD_0% = Install_UNIVP_PS_RedistPscript, WSDPRINT\XeroxPhaser_7400DT2592,USBPRINT\XeroxPhaser_7400DT2592,XeroxPhaser_7400DT2592
+%Xerox_UPD_0% = Install_UNIVP_PS_RedistPscript, WSDPRINT\XeroxPhaser_7400DX2092,USBPRINT\XeroxPhaser_7400DX2092,XeroxPhaser_7400DX2092
+%Xerox_UPD_0% = Install_UNIVP_PS_RedistPscript, WSDPRINT\XeroxPhaser_7400DXF5F20,USBPRINT\XeroxPhaser_7400DXF5F20,XeroxPhaser_7400DXF5F20
+%Xerox_UPD_0% = Install_UNIVP_PS_RedistPscript, WSDPRINT\XeroxPhaser_7750B55B6,USBPRINT\XeroxPhaser_7750B55B6,XeroxPhaser_7750B55B6
+%Xerox_UPD_0% = Install_UNIVP_PS_RedistPscript, WSDPRINT\XeroxPhaser_7750DN2257,USBPRINT\XeroxPhaser_7750DN2257,XeroxPhaser_7750DN2257
+%Xerox_UPD_0% = Install_UNIVP_PS_RedistPscript, WSDPRINT\XeroxPhaser_7750GX1CD6,USBPRINT\XeroxPhaser_7750GX1CD6,XeroxPhaser_7750GX1CD6
+%Xerox_UPD_0% = Install_UNIVP_PS_RedistPscript, WSDPRINT\XeroxPhaser_7750DX6CEC,USBPRINT\XeroxPhaser_7750DX6CEC,XeroxPhaser_7750DX6CEC
+%Xerox_UPD_0% = Install_UNIVP_PS_RedistPscript, WSDPRINT\XeroxPhaser_7760DNA7D6,USBPRINT\XeroxPhaser_7760DNA7D6,XeroxPhaser_7760DNA7D6
+%Xerox_UPD_0% = Install_UNIVP_PS_RedistPscript, WSDPRINT\XeroxPhaser_7760GX9957,USBPRINT\XeroxPhaser_7760GX9957,XeroxPhaser_7760GX9957
+%Xerox_UPD_0% = Install_UNIVP_PS_RedistPscript, WSDPRINT\XeroxPhaser_7760DX6957,USBPRINT\XeroxPhaser_7760DX6957,XeroxPhaser_7760DX6957
+%Xerox_UPD_0% = Install_UNIVP_PS_RedistPscript, WSDPRINT\XeroxPhaser_8400B71F3,USBPRINT\XeroxPhaser_8400B71F3,XeroxPhaser_8400B71F3
+%Xerox_UPD_0% = Install_UNIVP_PS_RedistPscript, WSDPRINT\XeroxPhaser_8400N74F3,USBPRINT\XeroxPhaser_8400N74F3,XeroxPhaser_8400N74F3
+%Xerox_UPD_0% = Install_UNIVP_PS_RedistPscript, WSDPRINT\XeroxPhaser_8400DPD932,USBPRINT\XeroxPhaser_8400DPD932,XeroxPhaser_8400DPD932
+%Xerox_UPD_0% = Install_UNIVP_PS_RedistPscript, WSDPRINT\XeroxPhaser_8400DX1F33,USBPRINT\XeroxPhaser_8400DX1F33,XeroxPhaser_8400DX1F33
+%Xerox_UPD_0% = Install_UNIVP_PS_RedistPscript, WSDPRINT\XeroxPhaser_8500N88F2,USBPRINT\XeroxPhaser_8500N88F2,XeroxPhaser_8500N88F2
+%Xerox_UPD_0% = Install_UNIVP_PS_RedistPscript, WSDPRINT\XeroxPhaser_8500DN118F,USBPRINT\XeroxPhaser_8500DN118F,XeroxPhaser_8500DN118F
+%Xerox_UPD_0% = Install_UNIVP_PS_RedistPscript, WSDPRINT\XeroxPhaser_8550DPD50F,USBPRINT\XeroxPhaser_8550DPD50F,XeroxPhaser_8550DPD50F
+%Xerox_UPD_0% = Install_UNIVP_PS_RedistPscript, WSDPRINT\XeroxPhaser_8550DT160E,USBPRINT\XeroxPhaser_8550DT160E,XeroxPhaser_8550DT160E
+%Xerox_UPD_0% = Install_UNIVP_PS_RedistPscript, WSDPRINT\XeroxPhaser_8550DX130E,USBPRINT\XeroxPhaser_8550DX130E,XeroxPhaser_8550DX130E
+%Xerox_UPD_0% = Install_UNIVP_PS_RedistPscript, WSDPRINT\XeroxPhaser_8560N8912,USBPRINT\XeroxPhaser_8560N8912,XeroxPhaser_8560N8912
+%Xerox_UPD_0% = Install_UNIVP_PS_RedistPscript, WSDPRINT\XeroxPhaser_8560DN998F,USBPRINT\XeroxPhaser_8560DN998F,XeroxPhaser_8560DN998F
+%Xerox_UPD_0% = Install_UNIVP_PS_RedistPscript, WSDPRINT\XeroxPhaser_8560DT520E,USBPRINT\XeroxPhaser_8560DT520E,XeroxPhaser_8560DT520E
+%Xerox_UPD_0% = Install_UNIVP_PS_RedistPscript, WSDPRINT\XeroxPhaser_8560DX570E,USBPRINT\XeroxPhaser_8560DX570E,XeroxPhaser_8560DX570E
+%Xerox_UPD_0% = Install_UNIVP_PS_RedistPscript, WSDPRINT\XeroxPhaser_856053AD,USBPRINT\XeroxPhaser_856053AD,XeroxPhaser_856053AD
+%Xerox_UPD_0% = Install_UNIVP_PS_RedistPscript, WSDPRINT\XeroxPhaser_8860903C,USBPRINT\XeroxPhaser_8860903C,XeroxPhaser_8860903C
+%Xerox_UPD_0% = Install_UNIVP_PS_RedistPscript, WSDPRINT\XeroxPhaser_8860MFP450E,USBPRINT\XeroxPhaser_8860MFP450E,XeroxPhaser_8860MFP450E
+%Xerox_UPD_0% = Install_UNIVP_PS_RedistPscript, WSDPRINT\XeroxXerox_770_DigitD382,USBPRINT\XeroxXerox_770_DigitD382,XeroxXerox_770_DigitD382
+%Xerox_UPD_0% = Install_UNIVP_PS_RedistPscript, WSDPRINT\XeroxColor_8250_Prod656C,USBPRINT\XeroxColor_8250_Prod656C,XeroxColor_8250_Prod656C
+%Xerox_UPD_0% = Install_UNIVP_PS_RedistPscript, WSDPRINT\XeroxXerox_Color_800479A,USBPRINT\XeroxXerox_Color_800479A,XeroxXerox_Color_800479A
+%Xerox_UPD_0% = Install_UNIVP_PS_RedistPscript, WSDPRINT\XeroxXerox_Color_100E6D3,USBPRINT\XeroxXerox_Color_100E6D3,XeroxXerox_Color_100E6D3
+%Xerox_UPD_0% = Install_UNIVP_PS_RedistPscript, WSDPRINT\XeroxXerox_Color_550368C,USBPRINT\XeroxXerox_Color_550368C,XeroxXerox_Color_550368C
+%Xerox_UPD_0% = Install_UNIVP_PS_RedistPscript, WSDPRINT\XeroxXerox_Color_560397C,USBPRINT\XeroxXerox_Color_560397C,XeroxXerox_Color_560397C
+%Xerox_UPD_0% = Install_UNIVP_PS_RedistPscript, WSDPRINT\XeroxXerox_Color_5708D64,USBPRINT\XeroxXerox_Color_5708D64,XeroxXerox_Color_5708D64
+%Xerox_UPD_0% = Install_UNIVP_PS_RedistPscript, WSDPRINT\XeroxDocuPrint_1050_D09E,USBPRINT\XeroxDocuPrint_1050_D09E,XeroxDocuPrint_1050_D09E
+%Xerox_UPD_0% = Install_UNIVP_PS_RedistPscript, WSDPRINT\XeroxDocuPrint_1000_D18E,USBPRINT\XeroxDocuPrint_1000_D18E,XeroxDocuPrint_1000_D18E
+%Xerox_UPD_0% = Install_UNIVP_PS_RedistPscript, WSDPRINT\XeroxDocuPrint_350_3A0D,USBPRINT\XeroxDocuPrint_350_3A0D,XeroxDocuPrint_350_3A0D
+%Xerox_UPD_0% = Install_UNIVP_PS_RedistPscript, WSDPRINT\XeroxDocuPrint_425_DFBE,USBPRINT\XeroxDocuPrint_425_DFBE,XeroxDocuPrint_425_DFBE
+%Xerox_UPD_0% = Install_UNIVP_PS_RedistPscript, WSDPRINT\XeroxDocuPrint_500_B31D,USBPRINT\XeroxDocuPrint_500_B31D,XeroxDocuPrint_500_B31D
+%Xerox_UPD_0% = Install_UNIVP_PS_RedistPscript, WSDPRINT\XeroxDocuPrint_525_23BF,USBPRINT\XeroxDocuPrint_525_23BF,XeroxDocuPrint_525_23BF
+%Xerox_UPD_0% = Install_UNIVP_PS_RedistPscript, WSDPRINT\XeroxDocuPrint_700_0B1C,USBPRINT\XeroxDocuPrint_700_0B1C,XeroxDocuPrint_700_0B1C
+%Xerox_UPD_0% = Install_UNIVP_PS_RedistPscript, WSDPRINT\XeroxDocuPrint_850_1E0F,USBPRINT\XeroxDocuPrint_850_1E0F,XeroxDocuPrint_850_1E0F
+%Xerox_UPD_0% = Install_UNIVP_PS_RedistPscript, WSDPRINT\Xerox1300_CF_E28E,USBPRINT\Xerox1300_CF_E28E,Xerox1300_CF_E28E
+%Xerox_UPD_0% = Install_UNIVP_PS_RedistPscript, WSDPRINT\Xerox650_CF_F559,USBPRINT\Xerox650_CF_F559,Xerox650_CF_F559
+%Xerox_UPD_0% = Install_UNIVP_PS_RedistPscript, WSDPRINT\Xerox495_CFB7DC,USBPRINT\Xerox495_CFB7DC,Xerox495_CFB7DC
+%Xerox_UPD_0% = Install_UNIVP_PS_RedistPscript, WSDPRINT\XeroxPhaser_6700NF19A,USBPRINT\XeroxPhaser_6700NF19A,XeroxPhaser_6700NF19A
+%Xerox_UPD_0% = Install_UNIVP_PS_RedistPscript, WSDPRINT\XeroxPhaser_6700DNFFF7,USBPRINT\XeroxPhaser_6700DNFFF7,XeroxPhaser_6700DNFFF7
+%Xerox_UPD_0% = Install_UNIVP_PS_RedistPscript, WSDPRINT\XeroxPhaser_6700DT3476,USBPRINT\XeroxPhaser_6700DT3476,XeroxPhaser_6700DT3476
+%Xerox_UPD_0% = Install_UNIVP_PS_RedistPscript, WSDPRINT\XeroxPhaser_6700DX3176,USBPRINT\XeroxPhaser_6700DX3176,XeroxPhaser_6700DX3176
+%Xerox_UPD_0% = Install_UNIVP_PS_RedistPscript, WSDPRINT\XeroxWorkCentre_72250254,USBPRINT\XeroxWorkCentre_72250254,XeroxWorkCentre_72250254
+%Xerox_UPD_0% = Install_UNIVP_PS_RedistPscript, WSDPRINT\XeroxWorkCentre_72200194,USBPRINT\XeroxWorkCentre_72200194,XeroxWorkCentre_72200194
+%Xerox_UPD_0% = Install_UNIVP_PS_RedistPscript, WSDPRINT\XeroxWorkCentre_77755345,USBPRINT\XeroxWorkCentre_77755345,XeroxWorkCentre_77755345
+%Xerox_UPD_0% = Install_UNIVP_PS_RedistPscript, WSDPRINT\XeroxWorkCentre_7765C344,USBPRINT\XeroxWorkCentre_7765C344,XeroxWorkCentre_7765C344
+%Xerox_UPD_0% = Install_UNIVP_PS_RedistPscript, WSDPRINT\XeroxWorkCentre_77553344,USBPRINT\XeroxWorkCentre_77553344,XeroxWorkCentre_77553344
+%Xerox_UPD_0% = Install_UNIVP_PS_RedistPscript, WSDPRINT\XeroxWorkCentre_58451876,USBPRINT\XeroxWorkCentre_58451876,XeroxWorkCentre_58451876
+%Xerox_UPD_0% = Install_UNIVP_PS_RedistPscript, WSDPRINT\XeroxWorkCentre_58558877,USBPRINT\XeroxWorkCentre_58558877,XeroxWorkCentre_58558877
+%Xerox_UPD_0% = Install_UNIVP_PS_RedistPscript, WSDPRINT\XeroxWorkCentre_58657877,USBPRINT\XeroxWorkCentre_58657877,XeroxWorkCentre_58657877
+%Xerox_UPD_0% = Install_UNIVP_PS_RedistPscript, WSDPRINT\XeroxWorkCentre_5875E876,USBPRINT\XeroxWorkCentre_5875E876,XeroxWorkCentre_5875E876
+%Xerox_UPD_0% = Install_UNIVP_PS_RedistPscript, WSDPRINT\XeroxWorkCentre_58908BB2,USBPRINT\XeroxWorkCentre_58908BB2,XeroxWorkCentre_58908BB2
+%Xerox_UPD_0% = Install_UNIVP_PS_RedistPscript, WSDPRINT\XeroxColorQube_8700SE273,USBPRINT\XeroxColorQube_8700SE273,XeroxColorQube_8700SE273
+%Xerox_UPD_0% = Install_UNIVP_PS_RedistPscript, WSDPRINT\XeroxColorQube_8700X2532,USBPRINT\XeroxColorQube_8700X2532,XeroxColorQube_8700X2532
+%Xerox_UPD_0% = Install_UNIVP_PS_RedistPscript, WSDPRINT\XeroxColorQube_8700X2725,USBPRINT\XeroxColorQube_8700X2725,XeroxColorQube_8700X2725
+%Xerox_UPD_0% = Install_UNIVP_PS_RedistPscript, WSDPRINT\XeroxColorQube_8900S0A71,USBPRINT\XeroxColorQube_8900S0A71,XeroxColorQube_8900S0A71
+%Xerox_UPD_0% = Install_UNIVP_PS_RedistPscript, WSDPRINT\XeroxColorQube_8900XCD30,USBPRINT\XeroxColorQube_8900XCD30,XeroxColorQube_8900XCD30
+%Xerox_UPD_0% = Install_UNIVP_PS_RedistPscript, WSDPRINT\XeroxWorkCentre_7556F2A7,USBPRINT\XeroxWorkCentre_7556F2A7,XeroxWorkCentre_7556F2A7
+%Xerox_UPD_0% = Install_UNIVP_PS_RedistPscript, WSDPRINT\XeroxWorkCentre_754563E6,USBPRINT\XeroxWorkCentre_754563E6,XeroxWorkCentre_754563E6
+%Xerox_UPD_0% = Install_UNIVP_PS_RedistPscript, WSDPRINT\XeroxWorkCentre_753553E4,USBPRINT\XeroxWorkCentre_753553E4,XeroxWorkCentre_753553E4
+%Xerox_UPD_0% = Install_UNIVP_PS_RedistPscript, WSDPRINT\XeroxWorkCentre_75305024,USBPRINT\XeroxWorkCentre_75305024,XeroxWorkCentre_75305024
+%Xerox_UPD_0% = Install_UNIVP_PS_RedistPscript, WSDPRINT\XeroxWorkCentre_7525C3E5,USBPRINT\XeroxWorkCentre_7525C3E5,XeroxWorkCentre_7525C3E5
+%Xerox_UPD_0% = Install_UNIVP_PS_RedistPscript, WSDPRINT\XeroxWorkCentre_64001ADC,USBPRINT\XeroxWorkCentre_64001ADC,XeroxWorkCentre_64001ADC
+%Xerox_UPD_0% = Install_UNIVP_PS_RedistPscript, WSDPRINT\XeroxWorkCentre_6400DD9D,USBPRINT\XeroxWorkCentre_6400DD9D,XeroxWorkCentre_6400DD9D
+%Xerox_UPD_0% = Install_UNIVP_PS_RedistPscript, WSDPRINT\XeroxWorkCentre_64005B9D,USBPRINT\XeroxWorkCentre_64005B9D,XeroxWorkCentre_64005B9D
+%Xerox_UPD_0% = Install_UNIVP_PS_RedistPscript, WSDPRINT\XeroxWorkCentre_78553076,USBPRINT\XeroxWorkCentre_78553076,XeroxWorkCentre_78553076
+%Xerox_UPD_0% = Install_UNIVP_PS_RedistPscript, WSDPRINT\XeroxWorkCentre_7845A077,USBPRINT\XeroxWorkCentre_7845A077,XeroxWorkCentre_7845A077
+%Xerox_UPD_0% = Install_UNIVP_PS_RedistPscript, WSDPRINT\XeroxWorkCentre_78359075,USBPRINT\XeroxWorkCentre_78359075,XeroxWorkCentre_78359075
+%Xerox_UPD_0% = Install_UNIVP_PS_RedistPscript, WSDPRINT\XeroxWorkCentre_783093B5,USBPRINT\XeroxWorkCentre_783093B5,XeroxWorkCentre_783093B5
+%Xerox_UPD_0% = Install_UNIVP_PS_RedistPscript, WSDPRINT\XeroxColorQube_93038E2A,USBPRINT\XeroxColorQube_93038E2A,XeroxColorQube_93038E2A
+%Xerox_UPD_0% = Install_UNIVP_PS_RedistPscript, WSDPRINT\XeroxColorQube_93024EEB,USBPRINT\XeroxColorQube_93024EEB,XeroxColorQube_93024EEB
+%Xerox_UPD_0% = Install_UNIVP_PS_RedistPscript, WSDPRINT\XeroxColorQube_93014FAB,USBPRINT\XeroxColorQube_93014FAB,XeroxColorQube_93014FAB
+%Xerox_UPD_0% = Install_UNIVP_PS_RedistPscript, WSDPRINT\XeroxPhaser_7800DNEF01,USBPRINT\XeroxPhaser_7800DNEF01,XeroxPhaser_7800DNEF01
+%Xerox_UPD_0% = Install_UNIVP_PS_RedistPscript, WSDPRINT\XeroxPhaser_7800GXD180,USBPRINT\XeroxPhaser_7800GXD180,XeroxPhaser_7800GXD180
+%Xerox_UPD_0% = Install_UNIVP_PS_RedistPscript, WSDPRINT\XeroxPhaser_7800DX2180,USBPRINT\XeroxPhaser_7800DX2180,XeroxPhaser_7800DX2180
+%Xerox_UPD_0% = Install_UNIVP_PS_RedistPscript, WSDPRINT\XeroxDocuColor_8000_6722,USBPRINT\XeroxDocuColor_8000_6722,XeroxDocuColor_8000_6722
+%Xerox_UPD_0% = Install_UNIVP_PS_RedistPscript, WSDPRINT\XeroxDocuColor_7000_0677,USBPRINT\XeroxDocuColor_7000_0677,XeroxDocuColor_7000_0677
+%Xerox_UPD_0% = Install_UNIVP_PS_RedistPscript, WSDPRINT\XeroxDocuColor_5000_0F76,USBPRINT\XeroxDocuColor_5000_0F76,XeroxDocuColor_5000_0F76
+%Xerox_UPD_0% = Install_UNIVP_PS_RedistPscript, WSDPRINT\XeroxPhaser_6600N0D9B,USBPRINT\XeroxPhaser_6600N0D9B,XeroxPhaser_6600N0D9B
+%Xerox_UPD_0% = Install_UNIVP_PS_RedistPscript, WSDPRINT\XeroxPhaser_6600DN3FCA,USBPRINT\XeroxPhaser_6600DN3FCA,XeroxPhaser_6600DN3FCA
+%Xerox_UPD_0% = Install_UNIVP_PS_RedistPscript, WSDPRINT\XeroxWorkCentre_6605FB1E,USBPRINT\XeroxWorkCentre_6605FB1E,XeroxWorkCentre_6605FB1E
+%Xerox_UPD_0% = Install_UNIVP_PS_RedistPscript, WSDPRINT\XeroxWorkCentre_66059CFD,USBPRINT\XeroxWorkCentre_66059CFD,XeroxWorkCentre_66059CFD
+%Xerox_UPD_0% = Install_UNIVP_PS_RedistPscript, WSDPRINT\XeroxPhaser_7100ND9A6,USBPRINT\XeroxPhaser_7100ND9A6,XeroxPhaser_7100ND9A6
+%Xerox_UPD_0% = Install_UNIVP_PS_RedistPscript, WSDPRINT\XeroxPhaser_7100DNEEDF,USBPRINT\XeroxPhaser_7100DNEEDF,XeroxPhaser_7100DNEEDF
+%Xerox_UPD_0% = Install_UNIVP_PS_RedistPscript, WSDPRINT\XeroxWorkCentre_71200164,USBPRINT\XeroxWorkCentre_71200164,XeroxWorkCentre_71200164
+%Xerox_UPD_0% = Install_UNIVP_PS_RedistPscript, WSDPRINT\XeroxWorkCentre_712502A4,USBPRINT\XeroxWorkCentre_712502A4,XeroxWorkCentre_712502A4
+%Xerox_UPD_0% = Install_UNIVP_PS_RedistPscript, WSDPRINT\XeroxColor_55012F0,USBPRINT\XeroxColor_55012F0,XeroxColor_55012F0
+%Xerox_UPD_0% = Install_UNIVP_PS_RedistPscript, WSDPRINT\XeroxColor_560E2F0,USBPRINT\XeroxColor_560E2F0,XeroxColor_560E2F0
+%Xerox_UPD_0% = Install_UNIVP_PS_RedistPscript, WSDPRINT\XeroxColor_57072F1,USBPRINT\XeroxColor_57072F1,XeroxColor_57072F1
+%Xerox_UPD_0% = Install_UNIVP_PS_RedistPscript, WSDPRINT\FUJI_XEROXApeosPort-BECF,USBPRINT\FUJI_XEROXApeosPort-BECF
+%Xerox_UPD_0% = Install_UNIVP_PS_RedistPscript, WSDPRINT\FUJI_XEROXApeosPort-BECF,USBPRINT\FUJI_XEROXApeosPort-BECF
+%Xerox_UPD_0% = Install_UNIVP_PS_RedistPscript, WSDPRINT\XeroxWorkCentre_72426016,USBPRINT\XeroxWorkCentre_72426016,XeroxWorkCentre_72426016
+%Xerox_UPD_0% = Install_UNIVP_PS_RedistPscript, WSDPRINT\XeroxWorkCentre_72325014,USBPRINT\XeroxWorkCentre_72325014,XeroxWorkCentre_72325014
+%Xerox_UPD_0% = Install_UNIVP_PS_RedistPscript, WSDPRINT\FUJI_XEROXApeosPort-DE09,USBPRINT\FUJI_XEROXApeosPort-DE09,FUJI_XEROXApeosPort-DE09
+%Xerox_UPD_0% = Install_UNIVP_PS_RedistPscript, WSDPRINT\FUJI_XEROXApeosPort-E235,USBPRINT\FUJI_XEROXApeosPort-E235,FUJI_XEROXApeosPort-E235
+%Xerox_UPD_0% = Install_UNIVP_PS_RedistPscript, WSDPRINT\FUJI_XEROXApeosPort-A671,USBPRINT\FUJI_XEROXApeosPort-A671,FUJI_XEROXApeosPort-A671
+%Xerox_UPD_0% = Install_UNIVP_PS_RedistPscript, WSDPRINT\FUJI_XEROXDocuCentre252A,USBPRINT\FUJI_XEROXDocuCentre252A,FUJI_XEROXDocuCentre252A
+%Xerox_UPD_0% = Install_UNIVP_PS_RedistPscript, WSDPRINT\FUJI_XEROXDocuCentre1916,USBPRINT\FUJI_XEROXDocuCentre1916,FUJI_XEROXDocuCentre1916
+%Xerox_UPD_0% = Install_UNIVP_PS_RedistPscript, WSDPRINT\FUJI_XEROXDocuCentre5D52,USBPRINT\FUJI_XEROXDocuCentre5D52,FUJI_XEROXDocuCentre5D52
+%Xerox_UPD_0% = Install_UNIVP_PS_RedistPscript, WSDPRINT\FUJI_XEROXApeosPort-C809,USBPRINT\FUJI_XEROXApeosPort-C809,FUJI_XEROXApeosPort-C809
+%Xerox_UPD_0% = Install_UNIVP_PS_RedistPscript, WSDPRINT\FUJI_XEROXApeosPort-F459,USBPRINT\FUJI_XEROXApeosPort-F459,FUJI_XEROXApeosPort-F459
+%Xerox_UPD_0% = Install_UNIVP_PS_RedistPscript, WSDPRINT\FUJI_XEROXApeosPort-B0A9,USBPRINT\FUJI_XEROXApeosPort-B0A9,FUJI_XEROXApeosPort-B0A9
+%Xerox_UPD_0% = Install_UNIVP_PS_RedistPscript, WSDPRINT\FUJI_XEROXDocuCentreAA52,USBPRINT\FUJI_XEROXDocuCentreAA52,FUJI_XEROXDocuCentreAA52
+%Xerox_UPD_0% = Install_UNIVP_PS_RedistPscript, WSDPRINT\FUJI_XEROXDocuCentre9602,USBPRINT\FUJI_XEROXDocuCentre9602,FUJI_XEROXDocuCentre9602
+%Xerox_UPD_0% = Install_UNIVP_PS_RedistPscript, WSDPRINT\FUJI_XEROXDocuCentreD2F2,USBPRINT\FUJI_XEROXDocuCentreD2F2,FUJI_XEROXDocuCentreD2F2
+%Xerox_UPD_0% = Install_UNIVP_PS_RedistPscript, WSDPRINT\FUJI_XEROXApeosPort-7B4F,USBPRINT\FUJI_XEROXApeosPort-7B4F,FUJI_XEROXApeosPort-7B4F
+%Xerox_UPD_0% = Install_UNIVP_PS_RedistPscript, WSDPRINT\FUJI_XEROXApeosPort-BBFA,USBPRINT\FUJI_XEROXApeosPort-BBFA,FUJI_XEROXApeosPort-BBFA
+%Xerox_UPD_0% = Install_UNIVP_PS_RedistPscript, WSDPRINT\FUJI_XEROXApeosPort-7BC7,USBPRINT\FUJI_XEROXApeosPort-7BC7,FUJI_XEROXApeosPort-7BC7
+%Xerox_UPD_0% = Install_UNIVP_PS_RedistPscript, WSDPRINT\FUJI_XEROXDocuCentre1820,USBPRINT\FUJI_XEROXDocuCentre1820,FUJI_XEROXDocuCentre1820
+%Xerox_UPD_0% = Install_UNIVP_PS_RedistPscript, WSDPRINT\FUJI_XEROXDocuCentreD81D,USBPRINT\FUJI_XEROXDocuCentreD81D,FUJI_XEROXDocuCentreD81D
+%Xerox_UPD_0% = Install_UNIVP_PS_RedistPscript, WSDPRINT\FUJI_XEROXApeosPort-8F85,USBPRINT\FUJI_XEROXApeosPort-8F85,FUJI_XEROXApeosPort-8F85
+%Xerox_UPD_0% = Install_UNIVP_PS_RedistPscript, WSDPRINT\FUJI_XEROXApeosPort-FB84,USBPRINT\FUJI_XEROXApeosPort-FB84,FUJI_XEROXApeosPort-FB84
+%Xerox_UPD_0% = Install_UNIVP_PS_RedistPscript, WSDPRINT\FUJI_XEROXDocuCentre9400,USBPRINT\FUJI_XEROXDocuCentre9400,FUJI_XEROXDocuCentre9400
+%Xerox_UPD_0% = Install_UNIVP_PS_RedistPscript, WSDPRINT\FUJI_XEROXDocuCentreE001,USBPRINT\FUJI_XEROXDocuCentreE001,FUJI_XEROXDocuCentreE001
+%Xerox_UPD_0% = Install_UNIVP_PS_RedistPscript, WSDPRINT\FUJI_XEROXApeosPort-11F5,USBPRINT\FUJI_XEROXApeosPort-11F5,FUJI_XEROXApeosPort-11F5
+%Xerox_UPD_0% = Install_UNIVP_PS_RedistPscript, WSDPRINT\FUJI_XEROXApeosPort-2DC9,USBPRINT\FUJI_XEROXApeosPort-2DC9,FUJI_XEROXApeosPort-2DC9
+%Xerox_UPD_0% = Install_UNIVP_PS_RedistPscript, WSDPRINT\FUJI_XEROXApeosPort-BDC8,USBPRINT\FUJI_XEROXApeosPort-BDC8,FUJI_XEROXApeosPort-BDC8
+%Xerox_UPD_0% = Install_UNIVP_PS_RedistPscript, WSDPRINT\FUJI_XEROXApeosPort-997D,USBPRINT\FUJI_XEROXApeosPort-997D,FUJI_XEROXApeosPort-997D
+%Xerox_UPD_0% = Install_UNIVP_PS_RedistPscript, WSDPRINT\FUJI_XEROXApeosPort-A543,USBPRINT\FUJI_XEROXApeosPort-A543,FUJI_XEROXApeosPort-A543
+%Xerox_UPD_0% = Install_UNIVP_PS_RedistPscript, WSDPRINT\FUJI_XEROXDocuCentreEAD6,USBPRINT\FUJI_XEROXDocuCentreEAD6,FUJI_XEROXDocuCentreEAD6
+%Xerox_UPD_0% = Install_UNIVP_PS_RedistPscript, WSDPRINT\FUJI_XEROXDocuCentreD6EA,USBPRINT\FUJI_XEROXDocuCentreD6EA,FUJI_XEROXDocuCentreD6EA
+%Xerox_UPD_0% = Install_UNIVP_PS_RedistPscript, WSDPRINT\FUJI_XEROXDocuCentre44EB,USBPRINT\FUJI_XEROXDocuCentre44EB,FUJI_XEROXDocuCentre44EB
+%Xerox_UPD_0% = Install_UNIVP_PS_RedistPscript, WSDPRINT\FUJI_XEROXDocuCentre625E,USBPRINT\FUJI_XEROXDocuCentre625E,FUJI_XEROXDocuCentre625E
+%Xerox_UPD_0% = Install_UNIVP_PS_RedistPscript, WSDPRINT\FUJI_XEROXDocuCentre5E62,USBPRINT\FUJI_XEROXDocuCentre5E62,FUJI_XEROXDocuCentre5E62
+%Xerox_UPD_0% = Install_UNIVP_PS_RedistPscript, WSDPRINT\FUJI_XEROXApeosPort-42AC,USBPRINT\FUJI_XEROXApeosPort-42AC,FUJI_XEROXApeosPort-42AC
+%Xerox_UPD_0% = Install_UNIVP_PS_RedistPscript, WSDPRINT\FUJI_XEROXApeosPort-C94C,USBPRINT\FUJI_XEROXApeosPort-C94C,FUJI_XEROXApeosPort-C94C
+%Xerox_UPD_0% = Install_UNIVP_PS_RedistPscript, WSDPRINT\FUJI_XEROXApeosPort-7CFC,USBPRINT\FUJI_XEROXApeosPort-7CFC,FUJI_XEROXApeosPort-7CFC
+%Xerox_UPD_0% = Install_UNIVP_PS_RedistPscript, WSDPRINT\FUJI_XEROXApeosPort-42AC,USBPRINT\FUJI_XEROXApeosPort-42AC,FUJI_XEROXApeosPort-42AC
+%Xerox_UPD_0% = Install_UNIVP_PS_RedistPscript, WSDPRINT\FUJI_XEROXDocuCentre9747,USBPRINT\FUJI_XEROXDocuCentre9747,FUJI_XEROXDocuCentre9747
+%Xerox_UPD_0% = Install_UNIVP_PS_RedistPscript, WSDPRINT\FUJI_XEROXDocuCentreAB17,USBPRINT\FUJI_XEROXDocuCentreAB17,FUJI_XEROXDocuCentreAB17
+%Xerox_UPD_0% = Install_UNIVP_PS_RedistPscript, WSDPRINT\FUJI_XEROXDocuCentre1EA7,USBPRINT\FUJI_XEROXDocuCentre1EA7,FUJI_XEROXDocuCentre1EA7
+%Xerox_UPD_0% = Install_UNIVP_PS_RedistPscript, WSDPRINT\FUJI_XEROXDocuCentre22F7,USBPRINT\FUJI_XEROXDocuCentre22F7,FUJI_XEROXDocuCentre22F7
+%Xerox_UPD_0% = Install_UNIVP_PS_RedistPscript, WSDPRINT\FUJI_XEROXApeosPort-43F6,USBPRINT\FUJI_XEROXApeosPort-43F6,FUJI_XEROXApeosPort-43F6
+%Xerox_UPD_0% = Install_UNIVP_PS_RedistPscript, WSDPRINT\FUJI_XEROXApeosPort-DDC9,USBPRINT\FUJI_XEROXApeosPort-DDC9,FUJI_XEROXApeosPort-DDC9
+%Xerox_UPD_0% = Install_UNIVP_PS_RedistPscript, WSDPRINT\FUJI_XEROXApeosPort-7DCA,USBPRINT\FUJI_XEROXApeosPort-7DCA,FUJI_XEROXApeosPort-7DCA
+%Xerox_UPD_0% = Install_UNIVP_PS_RedistPscript, WSDPRINT\FUJI_XEROXApeosPort-C97E,USBPRINT\FUJI_XEROXApeosPort-C97E,FUJI_XEROXApeosPort-C97E
+%Xerox_UPD_0% = Install_UNIVP_PS_RedistPscript, WSDPRINT\FUJI_XEROXApeosPort-F540,USBPRINT\FUJI_XEROXApeosPort-F540,FUJI_XEROXApeosPort-F540
+%Xerox_UPD_0% = Install_UNIVP_PS_RedistPscript, WSDPRINT\FUJI_XEROXDocuCentreBAD5,USBPRINT\FUJI_XEROXDocuCentreBAD5,FUJI_XEROXDocuCentreBAD5
+%Xerox_UPD_0% = Install_UNIVP_PS_RedistPscript, WSDPRINT\FUJI_XEROXDocuCentre26EA,USBPRINT\FUJI_XEROXDocuCentre26EA,FUJI_XEROXDocuCentre26EA
+%Xerox_UPD_0% = Install_UNIVP_PS_RedistPscript, WSDPRINT\FUJI_XEROXDocuCentre84E9,USBPRINT\FUJI_XEROXDocuCentre84E9,FUJI_XEROXDocuCentre84E9
+%Xerox_UPD_0% = Install_UNIVP_PS_RedistPscript, WSDPRINT\FUJI_XEROXDocuCentre325D,USBPRINT\FUJI_XEROXDocuCentre325D,FUJI_XEROXDocuCentre325D
+%Xerox_UPD_0% = Install_UNIVP_PS_RedistPscript, WSDPRINT\FUJI_XEROXDocuCentre0E61,USBPRINT\FUJI_XEROXDocuCentre0E61,FUJI_XEROXDocuCentre0E61
+%Xerox_UPD_0% = Install_UNIVP_PS_RedistPscript, WSDPRINT\FUJI_XEROXApeosPort-F6DC,USBPRINT\FUJI_XEROXApeosPort-F6DC,FUJI_XEROXApeosPort-F6DC
+%Xerox_UPD_0% = Install_UNIVP_PS_RedistPscript, WSDPRINT\FUJI_XEROXApeosPort-CA8C,USBPRINT\FUJI_XEROXApeosPort-CA8C,FUJI_XEROXApeosPort-CA8C
+%Xerox_UPD_0% = Install_UNIVP_PS_RedistPscript, WSDPRINT\FUJI_XEROXApeosPort-7F3C,USBPRINT\FUJI_XEROXApeosPort-7F3C,FUJI_XEROXApeosPort-7F3C
+%Xerox_UPD_0% = Install_UNIVP_PS_RedistPscript, WSDPRINT\FUJI_XEROXApeosPort-416C,USBPRINT\FUJI_XEROXApeosPort-416C,FUJI_XEROXApeosPort-416C
+%Xerox_UPD_0% = Install_UNIVP_PS_RedistPscript, WSDPRINT\FUJI_XEROXDocuCentre9487,USBPRINT\FUJI_XEROXDocuCentre9487,FUJI_XEROXDocuCentre9487
+%Xerox_UPD_0% = Install_UNIVP_PS_RedistPscript, WSDPRINT\FUJI_XEROXDocuCentreA8D7,USBPRINT\FUJI_XEROXDocuCentreA8D7,FUJI_XEROXDocuCentreA8D7
+%Xerox_UPD_0% = Install_UNIVP_PS_RedistPscript, WSDPRINT\FUJI_XEROXDocuCentre1D67,USBPRINT\FUJI_XEROXDocuCentre1D67,FUJI_XEROXDocuCentre1D67
+%Xerox_UPD_0% = Install_UNIVP_PS_RedistPscript, WSDPRINT\FUJI_XEROXDocuCentre2137,USBPRINT\FUJI_XEROXDocuCentre2137,FUJI_XEROXDocuCentre2137
+%Xerox_UPD_0% = Install_UNIVP_PS_RedistPscript, WSDPRINT\XeroxWorkCentre_52302994,USBPRINT\XeroxWorkCentre_52302994,XeroxWorkCentre_52302994
+%Xerox_UPD_0% = Install_UNIVP_PS_RedistPscript, WSDPRINT\XeroxWorkCentre_5225BA55,USBPRINT\XeroxWorkCentre_5225BA55,XeroxWorkCentre_5225BA55
+%Xerox_UPD_0% = Install_UNIVP_PS_RedistPscript, WSDPRINT\XeroxWorkCentre_52227814,USBPRINT\XeroxWorkCentre_52227814,XeroxWorkCentre_52227814
+%Xerox_UPD_0% = Install_UNIVP_PS_RedistPscript, WSDPRINT\XeroxWorkCentre_52309FE8,USBPRINT\XeroxWorkCentre_52309FE8,XeroxWorkCentre_52309FE8
+%Xerox_UPD_0% = Install_UNIVP_PS_RedistPscript, WSDPRINT\XeroxWorkCentre_52250FBA,USBPRINT\XeroxWorkCentre_52250FBA,XeroxWorkCentre_52250FBA
+%Xerox_UPD_0% = Install_UNIVP_PS_RedistPscript, WSDPRINT\XeroxD95_Copier-Prin5DAA,USBPRINT\XeroxD95_Copier-Prin5DAA,XeroxD95_Copier-Prin5DAA
+%Xerox_UPD_0% = Install_UNIVP_PS_RedistPscript, WSDPRINT\XeroxD110_Copier-PriD9D0,USBPRINT\XeroxD110_Copier-PriD9D0,XeroxD110_Copier-PriD9D0
+%Xerox_UPD_0% = Install_UNIVP_PS_RedistPscript, WSDPRINT\XeroxD125_Copier-PriA362,USBPRINT\XeroxD125_Copier-PriA362,XeroxD125_Copier-PriA362
+%Xerox_UPD_0% = Install_UNIVP_PS_RedistPscript, WSDPRINT\XeroxD95_Copier-Prin5DAA,USBPRINT\XeroxD95_Copier-Prin5DAA,XeroxD95_Copier-Prin5DAA
+%Xerox_UPD_0% = Install_UNIVP_PS_RedistPscript, WSDPRINT\XeroxD110_Copier-PriD9D0,USBPRINT\XeroxD110_Copier-PriD9D0,XeroxD110_Copier-PriD9D0
+%Xerox_UPD_0% = Install_UNIVP_PS_RedistPscript, WSDPRINT\XeroxD125_Copier-PriA362,USBPRINT\XeroxD125_Copier-PriA362,XeroxD125_Copier-PriA362
+%Xerox_UPD_0% = Install_UNIVP_PS_RedistPscript, WSDPRINT\FUJI_XEROXD95_4D39,USBPRINT\FUJI_XEROXD95_4D39,FUJI_XEROXD95_4D39
+%Xerox_UPD_0% = Install_UNIVP_PS_RedistPscript, WSDPRINT\FUJI_XEROXD110_ABC0,USBPRINT\FUJI_XEROXD110_ABC0,FUJI_XEROXD110_ABC0
+%Xerox_UPD_0% = Install_UNIVP_PS_RedistPscript, WSDPRINT\FUJI_XEROXD125_FB31,USBPRINT\FUJI_XEROXD125_FB31,FUJI_XEROXD125_FB31
+%Xerox_UPD_0% = Install_UNIVP_PS_RedistPscript, WSDPRINT\FUJI_XEROXD95F9CD,USBPRINT\FUJI_XEROXD95F9CD,FUJI_XEROXD95F9CD
+%Xerox_UPD_0% = Install_UNIVP_PS_RedistPscript, WSDPRINT\FUJI_XEROXD11081BB,USBPRINT\FUJI_XEROXD11081BB,FUJI_XEROXD11081BB
+%Xerox_UPD_0% = Install_UNIVP_PS_RedistPscript, WSDPRINT\FUJI_XEROXD110707B,USBPRINT\FUJI_XEROXD110707B,FUJI_XEROXD110707B
+%Xerox_UPD_0% = Install_UNIVP_PS_RedistPscript, WSDPRINT\XeroxWorkCentre_743593B5,USBPRINT\XeroxWorkCentre_743593B5,XeroxWorkCentre_743593B5
+%Xerox_UPD_0% = Install_UNIVP_PS_RedistPscript, WSDPRINT\XeroxWorkCentre_7428C675,USBPRINT\XeroxWorkCentre_7428C675,XeroxWorkCentre_7428C675
+%Xerox_UPD_0% = Install_UNIVP_PS_RedistPscript, WSDPRINT\XeroxWorkCentre_742503B4,USBPRINT\XeroxWorkCentre_742503B4,XeroxWorkCentre_742503B4
+%Xerox_UPD_0% = Install_UNIVP_PS_RedistPscript, WSDPRINT\XeroxWorkCentre_73466344,USBPRINT\XeroxWorkCentre_73466344,XeroxWorkCentre_73466344
+%Xerox_UPD_0% = Install_UNIVP_PS_RedistPscript, WSDPRINT\XeroxWorkCentre_73456204,USBPRINT\XeroxWorkCentre_73456204,XeroxWorkCentre_73456204
+%Xerox_UPD_0% = Install_UNIVP_PS_RedistPscript, WSDPRINT\XeroxWorkCentre_73355206,USBPRINT\XeroxWorkCentre_73355206,XeroxWorkCentre_73355206
+%Xerox_UPD_0% = Install_UNIVP_PS_RedistPscript, WSDPRINT\XeroxWorkCentre_732807C6,USBPRINT\XeroxWorkCentre_732807C6,XeroxWorkCentre_732807C6
+%Xerox_UPD_0% = Install_UNIVP_PS_RedistPscript, WSDPRINT\XeroxPhaser_361084DC,USBPRINT\XeroxPhaser_361084DC,XeroxPhaser_361084DC
+%Xerox_UPD_0% = Install_UNIVP_PS_RedistPscript, WSDPRINT\XeroxWorkCentre_36150314,USBPRINT\XeroxWorkCentre_36150314,XeroxWorkCentre_36150314
+%Xerox_UPD_0% = Install_UNIVP_PS_RedistPscript, WSDPRINT\FUJI_XEROXDocuCentre2A87,USBPRINT\FUJI_XEROXDocuCentre2A87,FUJI_XEROXDocuCentre2A87
+%Xerox_UPD_0% = Install_UNIVP_PS_RedistPscript, WSDPRINT\FUJI_XEROXDocuCentre0746,USBPRINT\FUJI_XEROXDocuCentre0746,FUJI_XEROXDocuCentre0746
+%Xerox_UPD_0% = Install_UNIVP_PS_RedistPscript, WSDPRINT\FUJI_XEROXDocuCentreDA87,USBPRINT\FUJI_XEROXDocuCentreDA87,FUJI_XEROXDocuCentreDA87
+%Xerox_UPD_0% = Install_UNIVP_PS_RedistPscript, WSDPRINT\FUJI_XEROXDocuCentre7A84,USBPRINT\FUJI_XEROXDocuCentre7A84,FUJI_XEROXDocuCentre7A84
+%Xerox_UPD_0% = Install_UNIVP_PS_RedistPscript, WSDPRINT\FUJI_XEROXDocuCentre0606,USBPRINT\FUJI_XEROXDocuCentre0606,FUJI_XEROXDocuCentre0606
+%Xerox_UPD_0% = Install_UNIVP_PS_RedistPscript, WSDPRINT\XeroxWorkCentre_5335EA07,USBPRINT\XeroxWorkCentre_5335EA07,XeroxWorkCentre_5335EA07
+%Xerox_UPD_0% = Install_UNIVP_PS_RedistPscript, WSDPRINT\XeroxWorkCentre_5330E9C7,USBPRINT\XeroxWorkCentre_5330E9C7,XeroxWorkCentre_5330E9C7
+%Xerox_UPD_0% = Install_UNIVP_PS_RedistPscript, WSDPRINT\XeroxWorkCentre_53257A06,USBPRINT\XeroxWorkCentre_53257A06,XeroxWorkCentre_53257A06
+%Xerox_UPD_0% = Install_UNIVP_PS_RedistPscript, WSDPRINT\FUJI_XEROXApeosPort-2FC6,USBPRINT\FUJI_XEROXApeosPort-2FC6,FUJI_XEROXApeosPort-2FC6
+%Xerox_UPD_0% = Install_UNIVP_PS_RedistPscript, WSDPRINT\FUJI_XEROXApeosPort-1114,USBPRINT\FUJI_XEROXApeosPort-1114,FUJI_XEROXApeosPort-1114
+%Xerox_UPD_0% = Install_UNIVP_PS_RedistPscript, WSDPRINT\FUJI_XEROXApeosPort-1394,USBPRINT\FUJI_XEROXApeosPort-1394,FUJI_XEROXApeosPort-1394
+%Xerox_UPD_0% = Install_UNIVP_PS_RedistPscript, WSDPRINT\FUJI_XEROXApeosPort-A624,USBPRINT\FUJI_XEROXApeosPort-A624,FUJI_XEROXApeosPort-A624
+%Xerox_UPD_0% = Install_UNIVP_PS_RedistPscript, WSDPRINT\FUJI_XEROXApeosPort-9A74,USBPRINT\FUJI_XEROXApeosPort-9A74,FUJI_XEROXApeosPort-9A74
+%Xerox_UPD_0% = Install_UNIVP_PS_RedistPscript, WSDPRINT\FUJI_XEROXApeosPort-DE86,USBPRINT\FUJI_XEROXApeosPort-DE86,FUJI_XEROXApeosPort-DE86
+%Xerox_UPD_0% = Install_UNIVP_PS_RedistPscript, WSDPRINT\FUJI_XEROXApeosPort-E204,USBPRINT\FUJI_XEROXApeosPort-E204,FUJI_XEROXApeosPort-E204
+%Xerox_UPD_0% = Install_UNIVP_PS_RedistPscript, WSDPRINT\FUJI_XEROXDocuCentre3443,USBPRINT\FUJI_XEROXDocuCentre3443,FUJI_XEROXDocuCentre3443
+%Xerox_UPD_0% = Install_UNIVP_PS_RedistPscript, WSDPRINT\FUJI_XEROXDocuCentre0A93,USBPRINT\FUJI_XEROXDocuCentre0A93,FUJI_XEROXDocuCentre0A93
+%Xerox_UPD_0% = Install_UNIVP_PS_RedistPscript, WSDPRINT\FUJI_XEROXDocuCentre0813,USBPRINT\FUJI_XEROXDocuCentre0813,FUJI_XEROXDocuCentre0813
+%Xerox_UPD_0% = Install_UNIVP_PS_RedistPscript, WSDPRINT\FUJI_XEROXDocuCentreBDA3,USBPRINT\FUJI_XEROXDocuCentreBDA3,FUJI_XEROXDocuCentreBDA3
+%Xerox_UPD_0% = Install_UNIVP_PS_RedistPscript, WSDPRINT\FUJI_XEROXDocuCentre83F3,USBPRINT\FUJI_XEROXDocuCentre83F3,FUJI_XEROXDocuCentre83F3
+%Xerox_UPD_0% = Install_UNIVP_PS_RedistPscript, WSDPRINT\FUJI_XEROXDocuCentreC503,USBPRINT\FUJI_XEROXDocuCentreC503,FUJI_XEROXDocuCentreC503
+%Xerox_UPD_0% = Install_UNIVP_PS_RedistPscript, WSDPRINT\FUJI_XEROXDocuCentreF953,USBPRINT\FUJI_XEROXDocuCentreF953,FUJI_XEROXDocuCentreF953
+%Xerox_UPD_0% = Install_UNIVP_PS_RedistPscript, WSDPRINT\FUJI_XEROXApeosPort-2FC6,USBPRINT\FUJI_XEROXApeosPort-2FC6,FUJI_XEROXApeosPort-2FC6
+%Xerox_UPD_0% = Install_UNIVP_PS_RedistPscript, WSDPRINT\FUJI_XEROXApeosPort-1394,USBPRINT\FUJI_XEROXApeosPort-1394,FUJI_XEROXApeosPort-1394
+%Xerox_UPD_0% = Install_UNIVP_PS_RedistPscript, WSDPRINT\FUJI_XEROXApeosPort-A624,USBPRINT\FUJI_XEROXApeosPort-A624,FUJI_XEROXApeosPort-A624
+%Xerox_UPD_0% = Install_UNIVP_PS_RedistPscript, WSDPRINT\FUJI_XEROXApeosPort-9A74,USBPRINT\FUJI_XEROXApeosPort-9A74,FUJI_XEROXApeosPort-9A74
+%Xerox_UPD_0% = Install_UNIVP_PS_RedistPscript, WSDPRINT\FUJI_XEROXApeosPort-DE86,USBPRINT\FUJI_XEROXApeosPort-DE86,FUJI_XEROXApeosPort-DE86
+%Xerox_UPD_0% = Install_UNIVP_PS_RedistPscript, WSDPRINT\FUJI_XEROXApeosPort-E2D4,USBPRINT\FUJI_XEROXApeosPort-E2D4,FUJI_XEROXApeosPort-E2D4
+%Xerox_UPD_0% = Install_UNIVP_PS_RedistPscript, WSDPRINT\FUJI_XEROXDocuCentre3443,USBPRINT\FUJI_XEROXDocuCentre3443,FUJI_XEROXDocuCentre3443
+%Xerox_UPD_0% = Install_UNIVP_PS_RedistPscript, WSDPRINT\FUJI_XEROXDocuCentre0813,USBPRINT\FUJI_XEROXDocuCentre0813,FUJI_XEROXDocuCentre0813
+%Xerox_UPD_0% = Install_UNIVP_PS_RedistPscript, WSDPRINT\FUJI_XEROXDocuCentreBDA3,USBPRINT\FUJI_XEROXDocuCentreBDA3,FUJI_XEROXDocuCentreBDA3
+%Xerox_UPD_0% = Install_UNIVP_PS_RedistPscript, WSDPRINT\FUJI_XEROXDocuCentre83F3,USBPRINT\FUJI_XEROXDocuCentre83F3,FUJI_XEROXDocuCentre83F3
+%Xerox_UPD_0% = Install_UNIVP_PS_RedistPscript, WSDPRINT\FUJI_XEROXDocuCentreC503,USBPRINT\FUJI_XEROXDocuCentreC503,FUJI_XEROXDocuCentreC503
+%Xerox_UPD_0% = Install_UNIVP_PS_RedistPscript, WSDPRINT\FUJI_XEROXDocuCentreF953,USBPRINT\FUJI_XEROXDocuCentreF953,FUJI_XEROXDocuCentreF953
+%Xerox_UPD_0% = Install_UNIVP_PS_RedistPscript, WSDPRINT\FUJI_XEROXDocuCentreD8F9,USBPRINT\FUJI_XEROXDocuCentreD8F9,FUJI_XEROXDocuCentreD8F9
+%Xerox_UPD_0% = Install_UNIVP_PS_RedistPscript, WSDPRINT\FUJI_XEROXDocuCentre18C4,USBPRINT\FUJI_XEROXDocuCentre18C4,FUJI_XEROXDocuCentre18C4
+%Xerox_UPD_0% = Install_UNIVP_PS_RedistPscript, WSDPRINT\FUJI_XEROXDocuCentre48C7,USBPRINT\FUJI_XEROXDocuCentre48C7,FUJI_XEROXDocuCentre48C7
+%Xerox_UPD_0% = Install_UNIVP_PS_RedistPscript, WSDPRINT\FUJI_XEROXDocuCentreF800,USBPRINT\FUJI_XEROXDocuCentreF800,FUJI_XEROXDocuCentreF800
+%Xerox_UPD_0% = Install_UNIVP_PS_RedistPscript, WSDPRINT\FUJI_XEROXDocuCentre0401,USBPRINT\FUJI_XEROXDocuCentre0401,FUJI_XEROXDocuCentre0401
+%Xerox_UPD_0% = Install_UNIVP_PS_RedistPscript, WSDPRINT\FUJI_XEROXApeosPort-583C,USBPRINT\FUJI_XEROXApeosPort-583C,FUJI_XEROXApeosPort-583C
+%Xerox_UPD_0% = Install_UNIVP_PS_RedistPscript, WSDPRINT\FUJI_XEROXDocuCentreA31F,USBPRINT\FUJI_XEROXDocuCentreA31F,FUJI_XEROXDocuCentreA31F
+%Xerox_UPD_0% = Install_UNIVP_PS_RedistPscript, WSDPRINT\FUJI_XEROXDocuPrint_C962,USBPRINT\FUJI_XEROXDocuPrint_C962,FUJI_XEROXDocuPrint_C962
+%Xerox_UPD_0% = Install_UNIVP_PS_RedistPscript, WSDPRINT\FUJI_XEROXApeosPort-B88E,USBPRINT\FUJI_XEROXApeosPort-B88E,FUJI_XEROXApeosPort-B88E
+%Xerox_UPD_0% = Install_UNIVP_PS_RedistPscript, WSDPRINT\FUJI_XEROXApeosPort-78B3,USBPRINT\FUJI_XEROXApeosPort-78B3,FUJI_XEROXApeosPort-78B3
+%Xerox_UPD_0% = Install_UNIVP_PS_RedistPscript, WSDPRINT\FUJI_XEROXDocuCentre1B54,USBPRINT\FUJI_XEROXDocuCentre1B54,FUJI_XEROXDocuCentre1B54
+%Xerox_UPD_0% = Install_UNIVP_PS_RedistPscript, WSDPRINT\FUJI_XEROXDocuCentreDB69,USBPRINT\FUJI_XEROXDocuCentreDB69,FUJI_XEROXDocuCentreDB69
+%Xerox_UPD_0% = Install_UNIVP_PS_RedistPscript, WSDPRINT\FUJI_XEROXApeosPort-4F81,USBPRINT\FUJI_XEROXApeosPort-4F81,FUJI_XEROXApeosPort-4F81
+%Xerox_UPD_0% = Install_UNIVP_PS_RedistPscript, WSDPRINT\FUJI_XEROXApeosPort-B380,USBPRINT\FUJI_XEROXApeosPort-B380,FUJI_XEROXApeosPort-B380
+%Xerox_UPD_0% = Install_UNIVP_PS_RedistPscript, WSDPRINT\FUJI_XEROXApeosPort-F780,USBPRINT\FUJI_XEROXApeosPort-F780,FUJI_XEROXApeosPort-F780
+%Xerox_UPD_0% = Install_UNIVP_PS_RedistPscript, WSDPRINT\FUJI_XEROXDocuCentre5404,USBPRINT\FUJI_XEROXDocuCentre5404,FUJI_XEROXDocuCentre5404
+%Xerox_UPD_0% = Install_UNIVP_PS_RedistPscript, WSDPRINT\FUJI_XEROXDocuCentreA805,USBPRINT\FUJI_XEROXDocuCentreA805,FUJI_XEROXDocuCentreA805
+%Xerox_UPD_0% = Install_UNIVP_PS_RedistPscript, WSDPRINT\FUJI_XEROXDocuCentreEC05,USBPRINT\FUJI_XEROXDocuCentreEC05,FUJI_XEROXDocuCentreEC05
+%Xerox_UPD_0% = Install_UNIVP_PS_RedistPscript, WSDPRINT\FUJI_XEROXApeosPort-BECF,USBPRINT\FUJI_XEROXApeosPort-BECF,FUJI_XEROXApeosPort-BECF
+%Xerox_UPD_0% = Install_UNIVP_PS_RedistPscript, WSDPRINT\FUJI_XEROXApeosPort-2ECE,USBPRINT\FUJI_XEROXApeosPort-2ECE,FUJI_XEROXApeosPort-2ECE
+%Xerox_UPD_0% = Install_UNIVP_PS_RedistPscript, WSDPRINT\FUJI_XEROXApeosPort-80F3,USBPRINT\FUJI_XEROXApeosPort-80F3,FUJI_XEROXApeosPort-80F3
+%Xerox_UPD_0% = Install_UNIVP_PS_RedistPscript, WSDPRINT\FUJI_XEROXDocuCentre3D75,USBPRINT\FUJI_XEROXDocuCentre3D75,FUJI_XEROXDocuCentre3D75
+%Xerox_UPD_0% = Install_UNIVP_PS_RedistPscript, WSDPRINT\FUJI_XEROXDocuCentreAD74,USBPRINT\FUJI_XEROXDocuCentreAD74,FUJI_XEROXDocuCentreAD74
+%Xerox_UPD_0% = Install_UNIVP_PS_RedistPscript, WSDPRINT\FUJI_XEROXDocuCentre0149,USBPRINT\FUJI_XEROXDocuCentre0149,FUJI_XEROXDocuCentre0149
+%Xerox_UPD_0% = Install_UNIVP_PS_RedistPscript, WSDPRINT\XeroxXerox_D136_CopiAFE2,USBPRINT\XeroxXerox_D136_CopiAFE2,XeroxXerox_D136_CopiAFE2
+%Xerox_UPD_0% = Install_UNIVP_PS_RedistPscript, WSDPRINT\FUJI_XEROXD136_CB60,USBPRINT\FUJI_XEROXD136_CB60,FUJI_XEROXD136_CB60
+%Xerox_UPD_0% = Install_UNIVP_PS_RedistPscript, WSDPRINT\FUJI_XEROXD136E13A,USBPRINT\FUJI_XEROXD136E13A,FUJI_XEROXD136E13A
+%Xerox_UPD_0% = Install_UNIVP_PS_RedistPscript, WSDPRINT\XeroxiGen3_0D2D,USBPRINT\XeroxiGen3_0D2D,XeroxiGen3_0D2D
+%Xerox_UPD_0% = Install_UNIVP_PS_RedistPscript, WSDPRINT\XeroxDOCUCOLOR_IGEN4DECF,USBPRINT\XeroxDOCUCOLOR_IGEN4DECF,XeroxDOCUCOLOR_IGEN4DECF
+%Xerox_UPD_0% = Install_UNIVP_PS_RedistPscript, WSDPRINT\XeroxXerox_D95_CopieAF90,USBPRINT\XeroxXerox_D95_CopieAF90,XeroxXerox_D95_CopieAF90
+%Xerox_UPD_0% = Install_UNIVP_PS_RedistPscript, WSDPRINT\XeroxXerox_D110_CopiADE3,USBPRINT\XeroxXerox_D110_CopiADE3,XeroxXerox_D110_CopiADE3
+%Xerox_UPD_0% = Install_UNIVP_PS_RedistPscript, WSDPRINT\XeroxXerox_D125_Copi16D0,USBPRINT\XeroxXerox_D125_Copi16D0,XeroxXerox_D125_Copi16D0
+%Xerox_UPD_0% = Install_UNIVP_PS_RedistPscript, WSDPRINT\XeroxXerox_D110_Prin4B0B,USBPRINT\XeroxXerox_D110_Prin4B0B,XeroxXerox_D110_Prin4B0B
+%Xerox_UPD_0% = Install_UNIVP_PS_RedistPscript, WSDPRINT\XeroxXerox_D125_PrinD465,USBPRINT\XeroxXerox_D125_PrinD465,XeroxXerox_D125_PrinD465
+%Xerox_UPD_0% = Install_UNIVP_PS_RedistPscript, WSDPRINT\XeroxPhaser_7500NE9A7,USBPRINT\XeroxPhaser_7500NE9A7,XeroxPhaser_7500NE9A7
+%Xerox_UPD_0% = Install_UNIVP_PS_RedistPscript, WSDPRINT\XeroxPhaser_7500DN2E2E,USBPRINT\XeroxPhaser_7500DN2E2E,XeroxPhaser_7500DN2E2E
+%Xerox_UPD_0% = Install_UNIVP_PS_RedistPscript, WSDPRINT\XeroxPhaser_7500DTE5AF,USBPRINT\XeroxPhaser_7500DTE5AF,XeroxPhaser_7500DTE5AF
+%Xerox_UPD_0% = Install_UNIVP_PS_RedistPscript, WSDPRINT\XeroxPhaser_7500DXE0AF,USBPRINT\XeroxPhaser_7500DXE0AF,XeroxPhaser_7500DXE0AF
+%Xerox_UPD_0% = Install_UNIVP_PS_RedistPscript, WSDPRINT\XeroxColorQube_8570N9201,USBPRINT\XeroxColorQube_8570N9201,XeroxColorQube_8570N9201
+%Xerox_UPD_0% = Install_UNIVP_PS_RedistPscript, WSDPRINT\XeroxColorQube_8570D54D5,USBPRINT\XeroxColorQube_8570D54D5,XeroxColorQube_8570D54D5
+%Xerox_UPD_0% = Install_UNIVP_PS_RedistPscript, WSDPRINT\XeroxColorQube_8570D9F54,USBPRINT\XeroxColorQube_8570D9F54,XeroxColorQube_8570D9F54
+%Xerox_UPD_0% = Install_UNIVP_PS_RedistPscript, WSDPRINT\XeroxColorQube_8570D9A54,USBPRINT\XeroxColorQube_8570D9A54,XeroxColorQube_8570D9A54
+%Xerox_UPD_0% = Install_UNIVP_PS_RedistPscript, WSDPRINT\XeroxColorQube_88708318,USBPRINT\XeroxColorQube_88708318,XeroxColorQube_88708318
+%Xerox_UPD_0% = Install_UNIVP_PS_RedistPscript, WSDPRINT\Xerox_242/2A4BB,USBPRINT\Xerox_242/2A4BB,Xerox_242/2A4BB
+%Xerox_UPD_0% = Install_UNIVP_PS_RedistPscript, WSDPRINT\Xerox_242/2A4BB,USBPRINT\Xerox_242/2A4BB,Xerox_242/2A4BB
+%Xerox_UPD_0% = Install_UNIVP_PS_RedistPscript, WSDPRINT\XeroxNuvera_EA_DPS_3F19,USBPRINT\XeroxNuvera_EA_DPS_3F19,XeroxNuvera_EA_DPS_3F19
+%Xerox_UPD_0% = Install_UNIVP_PS_RedistPscript, WSDPRINT\XeroxXerox_Color_J7501F2,USBPRINT\XeroxXerox_Color_J7501F2,XeroxXerox_Color_J7501F2
+%Xerox_UPD_0% = Install_UNIVP_PS_RedistPscript, WSDPRINT\XeroxXerox_Color_C755198,USBPRINT\XeroxXerox_Color_C755198,XeroxXerox_Color_C755198
+%Xerox_UPD_0% = Install_UNIVP_PS_RedistPscript, WSDPRINT\XeroxDocuTech_6100_EC36,USBPRINT\XeroxDocuTech_6100_EC36,XeroxDocuTech_6100_EC36
+%Xerox_UPD_0% = Install_UNIVP_PS_RedistPscript, WSDPRINT\XeroxDocuTech_6115_7C64,USBPRINT\XeroxDocuTech_6115_7C64,XeroxDocuTech_6115_7C64
+%Xerox_UPD_0% = Install_UNIVP_PS_RedistPscript, WSDPRINT\XeroxDocuTech_6135_BCC7,USBPRINT\XeroxDocuTech_6135_BCC7,XeroxDocuTech_6135_BCC7
+%Xerox_UPD_0% = Install_UNIVP_PS_RedistPscript, WSDPRINT\XeroxDocuTech_6155_BD25,USBPRINT\XeroxDocuTech_6155_BD25,XeroxDocuTech_6155_BD25
+%Xerox_UPD_0% = Install_UNIVP_PS_RedistPscript, WSDPRINT\XeroxDocuTech_6180_2EB7,USBPRINT\XeroxDocuTech_6180_2EB7,XeroxDocuTech_6180_2EB7
+%Xerox_UPD_0% = Install_UNIVP_PS_RedistPscript, WSDPRINT\XeroxDocuPrint_100_811C,USBPRINT\XeroxDocuPrint_100_811C,XeroxDocuPrint_100_811C
+%Xerox_UPD_0% = Install_UNIVP_PS_RedistPscript, WSDPRINT\XeroxDocuPrint_115_134E,USBPRINT\XeroxDocuPrint_115_134E,XeroxDocuPrint_115_134E
+%Xerox_UPD_0% = Install_UNIVP_PS_RedistPscript, WSDPRINT\XeroxDocuPrint_135_D3EF,USBPRINT\XeroxDocuPrint_135_D3EF,XeroxDocuPrint_135_D3EF
+%Xerox_UPD_0% = Install_UNIVP_PS_RedistPscript, WSDPRINT\XeroxDocuPrint_155_D20F,USBPRINT\XeroxDocuPrint_155_D20F,XeroxDocuPrint_155_D20F
+%Xerox_UPD_0% = Install_UNIVP_PS_RedistPscript, WSDPRINT\XeroxDocuPrint_180_439D,USBPRINT\XeroxDocuPrint_180_439D,XeroxDocuPrint_180_439D
+%Xerox_UPD_0% = Install_UNIVP_PS_RedistPscript, WSDPRINT\XeroxPhaser_332077CC,USBPRINT\XeroxPhaser_332077CC
+%Xerox_UPD_0% = Install_UNIVP_PS_RedistPscript, WSDPRINT\XeroxWorkCentre_33150206, USBPRINT\XeroxWorkCentre_33150206
+%Xerox_UPD_0% = Install_UNIVP_PS_RedistPscript, WSDPRINT\XeroxWorkCentre_3325F206, USBPRINT\XeroxWorkCentre_3325F206
+%Xerox_UPD_0% = Install_UNIVP_PS_RedistPscript, WSDPRINT\XeroxWorkCentre_Pro_5FBF,USBPRINT\XeroxWorkCentre_Pro_5FBF,XeroxWorkCentre_Pro_5FBF
+%Xerox_UPD_0% = Install_UNIVP_PS_RedistPscript, WSDPRINT\XeroxWorkCentre_Pro_CFBE,USBPRINT\XeroxWorkCentre_Pro_CFBE,XeroxWorkCentre_Pro_CFBE
+%Xerox_UPD_0% = Install_UNIVP_PS_RedistPscript, WSDPRINT\XeroxWorkCentre_Pro_3FBE,USBPRINT\XeroxWorkCentre_Pro_3FBE,XeroxWorkCentre_Pro_3FBE
+%Xerox_UPD_0% = Install_UNIVP_PS_RedistPscript, WSDPRINT\XeroxWorkCentre_Pro_AFBF,USBPRINT\XeroxWorkCentre_Pro_AFBF,XeroxWorkCentre_Pro_AFBF
+%Xerox_UPD_0% = Install_UNIVP_PS_RedistPscript, WSDPRINT\XeroxWorkCentre_Pro_5A7C,USBPRINT\XeroxWorkCentre_Pro_5A7C,XeroxWorkCentre_Pro_5A7C
+%Xerox_UPD_0% = Install_UNIVP_PS_RedistPscript, WSDPRINT\XeroxWorkCentre_Pro_5DFC,USBPRINT\XeroxWorkCentre_Pro_5DFC,XeroxWorkCentre_Pro_5DFC
+%Xerox_UPD_0% = Install_UNIVP_PS_RedistPscript, WSDPRINT\XeroxWorkCentre_2754561,USBPRINT\XeroxWorkCentre_2754561,XeroxWorkCentre_2754561
+%Xerox_UPD_0% = Install_UNIVP_PS_RedistPscript, WSDPRINT\XeroxWorkCentre_265D760,USBPRINT\XeroxWorkCentre_265D760,XeroxWorkCentre_265D760
+%Xerox_UPD_0% = Install_UNIVP_PS_RedistPscript, WSDPRINT\XeroxWorkCentre_2552760,USBPRINT\XeroxWorkCentre_2552760,XeroxWorkCentre_2552760
+%Xerox_UPD_0% = Install_UNIVP_PS_RedistPscript, WSDPRINT\XeroxWorkCentre_245B761,USBPRINT\XeroxWorkCentre_245B761,XeroxWorkCentre_245B761
+%Xerox_UPD_0% = Install_UNIVP_PS_RedistPscript, WSDPRINT\XeroxWorkCentre_23840A2,USBPRINT\XeroxWorkCentre_23840A2,XeroxWorkCentre_23840A2
+%Xerox_UPD_0% = Install_UNIVP_PS_RedistPscript, WSDPRINT\XeroxWorkCentre_2324722,USBPRINT\XeroxWorkCentre_2324722,XeroxWorkCentre_2324722
+%Xerox_UPD_0% = Install_UNIVP_PS_RedistPscript, WSDPRINT\XeroxWorkCentre_41507A96,USBPRINT\XeroxWorkCentre_41507A96,XeroxWorkCentre_41507A96
+%Xerox_UPD_0% = Install_UNIVP_PS_RedistPscript, WSDPRINT\XeroxWorkCentre_42608796,USBPRINT\XeroxWorkCentre_42608796,XeroxWorkCentre_42608796
+%Xerox_UPD_0% = Install_UNIVP_PS_RedistPscript, WSDPRINT\XeroxWorkCentre_42507596,USBPRINT\XeroxWorkCentre_42507596,XeroxWorkCentre_42507596
+%Xerox_UPD_0% = Install_UNIVP_PS_RedistPscript, WSDPRINT\XeroxPhaser_4600A35D,USBPRINT\XeroxPhaser_4600A35D,XeroxPhaser_4600A35D
+%Xerox_UPD_0% = Install_UNIVP_PS_RedistPscript, WSDPRINT\XeroxPhaser_4620C35C,USBPRINT\XeroxPhaser_4620C35C,XeroxPhaser_4620C35C
+%Xerox_UPD_0% = Install_UNIVP_PS_RedistPscript, WSDPRINT\XeroxPhaser_3635MFPDD78,USBPRINT\XeroxPhaser_3635MFPDD78,XeroxPhaser_3635MFPDD78
+%Xerox_UPD_0% = Install_UNIVP_PS_RedistPscript, WSDPRINT\XeroxD136_Printer4CBB,USBPRINT\XeroxD136_Printer4CBB,XeroxD136_Printer4CBB
+%Xerox_UPD_0% = Install_UNIVP_PS_RedistPscript, WSDPRINT\XeroxD136_Copier-PriD689,USBPRINT\XeroxD136_Copier-PriD689,XeroxD136_Copier-PriD689
+%Xerox_UPD_0% = Install_UNIVP_PS_RedistPscript, WSDPRINT\XeroxColorQube_92034E7B,USBPRINT\XeroxColorQube_92034E7B,XeroxColorQube_92034E7B
+%Xerox_UPD_0% = Install_UNIVP_PS_RedistPscript, WSDPRINT\XeroxColorQube_92028EBA,USBPRINT\XeroxColorQube_92028EBA,XeroxColorQube_92028EBA
+%Xerox_UPD_0% = Install_UNIVP_PS_RedistPscript, WSDPRINT\XeroxColorQube_92018FFA,USBPRINT\XeroxColorQube_92018FFA,XeroxColorQube_92018FFA
+%Xerox_UPD_0% = Install_UNIVP_PS_RedistPscript, WSDPRINT\XeroxWorkCentre_50504936,USBPRINT\XeroxWorkCentre_50504936,XeroxWorkCentre_50504936
+%Xerox_UPD_0% = Install_UNIVP_PS_RedistPscript, WSDPRINT\XeroxWorkCentre_5030E935,USBPRINT\XeroxWorkCentre_5030E935,XeroxWorkCentre_5030E935
+%Xerox_UPD_0% = Install_UNIVP_PS_RedistPscript, WSDPRINT\XeroxWorkCentre_Pro_4E62,USBPRINT\XeroxWorkCentre_Pro_4E62,XeroxWorkCentre_Pro_4E62
+%Xerox_UPD_0% = Install_UNIVP_PS_RedistPscript, WSDPRINT\XeroxWorkCentre_Pro_DE63,USBPRINT\XeroxWorkCentre_Pro_DE63,XeroxWorkCentre_Pro_DE63
+%Xerox_UPD_0% = Install_UNIVP_PS_RedistPscript, WSDPRINT\XeroxWorkCentre_Pro_EE61,USBPRINT\XeroxWorkCentre_Pro_EE61,XeroxWorkCentre_Pro_EE61
+%Xerox_UPD_0% = Install_UNIVP_PS_RedistPscript, WSDPRINT\XeroxWorkCentre_M553ED0,USBPRINT\XeroxWorkCentre_M553ED0,XeroxWorkCentre_M553ED0
+%Xerox_UPD_0% = Install_UNIVP_PS_RedistPscript, WSDPRINT\XeroxWorkCentre_M45AED1,USBPRINT\XeroxWorkCentre_M45AED1,XeroxWorkCentre_M45AED1
+%Xerox_UPD_0% = Install_UNIVP_PS_RedistPscript, WSDPRINT\XeroxWorkCentre_M359ED3,USBPRINT\XeroxWorkCentre_M359ED3,XeroxWorkCentre_M359ED3
+%Xerox_UPD_0% = Install_UNIVP_PS_RedistPscript, WSDPRINT\XeroxWorkCentre_76759316,USBPRINT\XeroxWorkCentre_76759316,XeroxWorkCentre_76759316
+%Xerox_UPD_0% = Install_UNIVP_PS_RedistPscript, WSDPRINT\XeroxWorkCentre_76650317,USBPRINT\XeroxWorkCentre_76650317,XeroxWorkCentre_76650317
+%Xerox_UPD_0% = Install_UNIVP_PS_RedistPscript, WSDPRINT\XeroxWorkCentre_7655F317,USBPRINT\XeroxWorkCentre_7655F317,XeroxWorkCentre_7655F317
+%Xerox_UPD_0% = Install_UNIVP_PS_RedistPscript, WSDPRINT\XeroxWorkCentre_51508967,USBPRINT\XeroxWorkCentre_51508967,XeroxWorkCentre_51508967
+%Xerox_UPD_0% = Install_UNIVP_PS_RedistPscript, WSDPRINT\XeroxWorkCentre_51352AA4,USBPRINT\XeroxWorkCentre_51352AA4,XeroxWorkCentre_51352AA4
+%Xerox_UPD_0% = Install_UNIVP_PS_RedistPscript, WSDPRINT\XeroxWorkCentre_56871A93,USBPRINT\XeroxWorkCentre_56871A93,XeroxWorkCentre_56871A93
+%Xerox_UPD_0% = Install_UNIVP_PS_RedistPscript, WSDPRINT\XeroxWorkCentre_56752B17,USBPRINT\XeroxWorkCentre_56752B17,XeroxWorkCentre_56752B17
+%Xerox_UPD_0% = Install_UNIVP_PS_RedistPscript, WSDPRINT\XeroxWorkCentre_5665BB16,USBPRINT\XeroxWorkCentre_5665BB16,XeroxWorkCentre_5665BB16
+%Xerox_UPD_0% = Install_UNIVP_PS_RedistPscript, WSDPRINT\XeroxWorkCentre_56554B16,USBPRINT\XeroxWorkCentre_56554B16,XeroxWorkCentre_56554B16
+%Xerox_UPD_0% = Install_UNIVP_PS_RedistPscript, WSDPRINT\XeroxWorkCentre_5645DB17,USBPRINT\XeroxWorkCentre_5645DB17,XeroxWorkCentre_5645DB17
+%Xerox_UPD_0% = Install_UNIVP_PS_RedistPscript, WSDPRINT\XeroxWorkCentre_56382ED4,USBPRINT\XeroxWorkCentre_56382ED4,XeroxWorkCentre_56382ED4
+%Xerox_UPD_0% = Install_UNIVP_PS_RedistPscript, WSDPRINT\XeroxWorkCentre_56322954,USBPRINT\XeroxWorkCentre_56322954,XeroxWorkCentre_56322954
+%Xerox_UPD_0% = Install_UNIVP_PS_RedistPscript, WSDPRINT\XeroxWorkCentre_57558B45,USBPRINT\XeroxWorkCentre_57558B45,XeroxWorkCentre_57558B45
+%Xerox_UPD_0% = Install_UNIVP_PS_RedistPscript, WSDPRINT\XeroxWorkCentre_57451B44,USBPRINT\XeroxWorkCentre_57451B44,XeroxWorkCentre_57451B44
+%Xerox_UPD_0% = Install_UNIVP_PS_RedistPscript, WSDPRINT\XeroxWorkCentre_57401884,USBPRINT\XeroxWorkCentre_57401884,XeroxWorkCentre_57401884
+%Xerox_UPD_0% = Install_UNIVP_PS_RedistPscript, WSDPRINT\XeroxWorkCentre_57352B46,USBPRINT\XeroxWorkCentre_57352B46,XeroxWorkCentre_57352B46
+%Xerox_UPD_0% = Install_UNIVP_PS_RedistPscript, WSDPRINT\XeroxWorkCentre_57908880,USBPRINT\XeroxWorkCentre_57908880,XeroxWorkCentre_57908880
+%Xerox_UPD_0% = Install_UNIVP_PS_RedistPscript, WSDPRINT\XeroxWorkCentre_5775EB44,USBPRINT\XeroxWorkCentre_5775EB44,XeroxWorkCentre_5775EB44
+%Xerox_UPD_0% = Install_UNIVP_PS_RedistPscript, WSDPRINT\XeroxWorkCentre_57657B45,USBPRINT\XeroxWorkCentre_57657B45,XeroxWorkCentre_57657B45
+%Xerox_UPD_0% = Install_UNIVP_PS_RedistPscript, WSDPRINT\XeroxWorkCentre_M165BABE,USBPRINT\XeroxWorkCentre_M165BABE,XeroxWorkCentre_M165BABE
+%Xerox_UPD_0% = Install_UNIVP_PS_RedistPscript, WSDPRINT\XeroxWorkCentre_M1752ABF,USBPRINT\XeroxWorkCentre_M1752ABF,XeroxWorkCentre_M1752ABF
+%Xerox_UPD_0% = Install_UNIVP_PS_RedistPscript, WSDPRINT\XeroxWorkCentre_Pro_CF4E,USBPRINT\XeroxWorkCentre_Pro_CF4E,XeroxWorkCentre_Pro_CF4E
+%Xerox_UPD_0% = Install_UNIVP_PS_RedistPscript, WSDPRINT\XeroxWorkCentre_Pro_5F4F,USBPRINT\XeroxWorkCentre_Pro_5F4F,XeroxWorkCentre_Pro_5F4F
+%Xerox_UPD_0% = Install_UNIVP_PS_RedistPscript, WSDPRINT\XeroxMobile_Express_D002,USBPRINT\XeroxMobile_Express_D002,XeroxMobile_Express_D002
+%Xerox_UPD_0% = Install_UNIVP_PS_RedistPscript, WSDPRINT\XeroxXerox_iGen_150_3A7E,USBPRINT\XeroxXerox_iGen_150_3A7E,XeroxXerox_iGen_150_3A7E
+%Xerox_UPD_1% = Install_UNIVP_PS_RedistPscript, WSDPRINT\Xerox_HWID_GPD1,USBPRINT\Xerox_HWID_GPD1,Xerox_HWID_GPD1
+
+
+
+[Models.NTamd64.6.0]
+%Xerox_UPD_0% = Install_UNIVP_PS_NT60, WSDPRINT\XeroxDT_180_HLC_Publ70C3,USBPRINT\XeroxDT_180_HLC_Publ70C3,XeroxDT_180_HLC_Publ70C3
+%Xerox_UPD_0% = Install_UNIVP_PS_NT60, WSDPRINT\XeroxDT_155_HLC_Publ4C78,USBPRINT\XeroxDT_155_HLC_Publ4C78,XeroxDT_155_HLC_Publ4C78
+%Xerox_UPD_0% = Install_UNIVP_PS_NT60, WSDPRINT\XeroxDT_128_HLC_Publ7BF7,USBPRINT\XeroxDT_128_HLC_Publ7BF7,XeroxDT_128_HLC_Publ7BF7
+%Xerox_UPD_0% = Install_UNIVP_PS_NT60, WSDPRINT\XeroxDocuTech_180_PrAB02,USBPRINT\XeroxDocuTech_180_PrAB02,XeroxDocuTech_180_PrAB02
+%Xerox_UPD_0% = Install_UNIVP_PS_NT60, WSDPRINT\XeroxDocuTech_155_Pr4903,USBPRINT\XeroxDocuTech_155_Pr4903,XeroxDocuTech_155_Pr4903
+%Xerox_UPD_0% = Install_UNIVP_PS_NT60, WSDPRINT\XeroxDocuTech_128_Pr4903,USBPRINT\XeroxDocuTech_128_Pr4903,XeroxDocuTech_128_Pr4903
+%Xerox_UPD_0% = Install_UNIVP_PS_NT60, WSDPRINT\XeroxWorkCentre_C242D2F1,USBPRINT\XeroxWorkCentre_C242D2F1,XeroxWorkCentre_C242D2F1
+%Xerox_UPD_0% = Install_UNIVP_PS_NT60, wsdprint\XeroxPhaser_3300_MFPCCD4,XeroxPhaser_3300MFP463C
+%Xerox_UPD_0% = Install_UNIVP_PS_NT60, wsdprint\XeroxWorkCentre_35503CCC,XeroxWorkCentre_3550C026
+%Xerox_UPD_0% = Install_UNIVP_PS_NT60, wsdprint\XeroxPhaser_3600_PS6C62,XeroxWorkCentre_360016DD
+%Xerox_UPD_0% = Install_UNIVP_PS_NT60, WSDPRINT\XeroxXXP4410_8DE9,USBPRINT\XeroxXXP4410_8DE9,XeroxXXP4410_8DE9
+%Xerox_UPD_0% = Install_UNIVP_PS_NT60, WSDPRINT\XeroxXXP4590_B369,USBPRINT\XeroxXXP4590_B369,XeroxXXP4590_B369
+%Xerox_UPD_0% = Install_UNIVP_PS_NT60, WSDPRINT\XeroxXXP4410_EPS4CD9,USBPRINT\XeroxXXP4410_EPS4CD9,XeroxXXP4410_EPS4CD9
+%Xerox_UPD_0% = Install_UNIVP_PS_NT60, WSDPRINT\XeroxXXP4590_EPSC4C8,USBPRINT\XeroxXXP4590_EPSC4C8,XeroxXXP4590_EPSC4C8
+%Xerox_UPD_0% = Install_UNIVP_PS_NT60, WSDPRINT\XeroxXXP4595_E36A,USBPRINT\XeroxXXP4595_E36A,XeroxXXP4595_E36A
+%Xerox_UPD_0% = Install_UNIVP_PS_NT60, WSDPRINT\XeroxXXP4595_EPSC406,USBPRINT\XeroxXXP4595_EPSC406,XeroxXXP4595_EPSC406
+%Xerox_UPD_0% = Install_UNIVP_PS_NT60, WSDPRINT\XeroxFreeFlow_4112_C63DD,USBPRINT\XeroxFreeFlow_4112_C63DD,XeroxFreeFlow_4112_C63DD
+%Xerox_UPD_0% = Install_UNIVP_PS_NT60, WSDPRINT\XeroxFreeFlow_4112_E2243,USBPRINT\XeroxFreeFlow_4112_E2243,XeroxFreeFlow_4112_E2243
+%Xerox_UPD_0% = Install_UNIVP_PS_NT60, WSDPRINT\XeroxFreeFlow_4127_C4AD5,USBPRINT\XeroxFreeFlow_4127_C4AD5,XeroxFreeFlow_4127_C4AD5
+%Xerox_UPD_0% = Install_UNIVP_PS_NT60, WSDPRINT\XeroxFreeFlow_4112_E4914,USBPRINT\XeroxFreeFlow_4112_E4914,XeroxFreeFlow_4112_E4914
+%Xerox_UPD_0% = Install_UNIVP_PS_NT60, WSDPRINT\XeroxPhaser_4500B70E3,USBPRINT\XeroxPhaser_4500B70E3,XeroxPhaser_4500B70E3
+%Xerox_UPD_0% = Install_UNIVP_PS_NT60, WSDPRINT\XeroxPhaser_4500N75E3,USBPRINT\XeroxPhaser_4500N75E3,XeroxPhaser_4500N75E3
+%Xerox_UPD_0% = Install_UNIVP_PS_NT60, WSDPRINT\XeroxPhaser_4500DTD633,USBPRINT\XeroxPhaser_4500DTD633,XeroxPhaser_4500DTD633
+%Xerox_UPD_0% = Install_UNIVP_PS_NT60, WSDPRINT\XeroxPhaser_4500DXD333,USBPRINT\XeroxPhaser_4500DXD333,XeroxPhaser_4500DXD333
+%Xerox_UPD_0% = Install_UNIVP_PS_NT60, WSDPRINT\XeroxPhaser_4510B4CB3,USBPRINT\XeroxPhaser_4510B4CB3,XeroxPhaser_4510B4CB3
+%Xerox_UPD_0% = Install_UNIVP_PS_NT60, WSDPRINT\XeroxPhaser_4510N49B3,USBPRINT\XeroxPhaser_4510N49B3,XeroxPhaser_4510N49B3
+%Xerox_UPD_0% = Install_UNIVP_PS_NT60, WSDPRINT\XeroxPhaser_4510DTEA0F,USBPRINT\XeroxPhaser_4510DTEA0F,XeroxPhaser_4510DTEA0F
+%Xerox_UPD_0% = Install_UNIVP_PS_NT60, WSDPRINT\XeroxPhaser_4510DXEF0F,USBPRINT\XeroxPhaser_4510DXEF0F,XeroxPhaser_4510DXEF0F
+%Xerox_UPD_0% = Install_UNIVP_PS_NT60, WSDPRINT\XeroxPhaser_5500B4CDF,USBPRINT\XeroxPhaser_5500B4CDF,XeroxPhaser_5500B4CDF
+%Xerox_UPD_0% = Install_UNIVP_PS_NT60, WSDPRINT\XeroxPhaser_5500N49DF,USBPRINT\XeroxPhaser_5500N49DF,XeroxPhaser_5500N49DF
+%Xerox_UPD_0% = Install_UNIVP_PS_NT60, WSDPRINT\XeroxPhaser_5500DN0C8E,USBPRINT\XeroxPhaser_5500DN0C8E,XeroxPhaser_5500DN0C8E
+%Xerox_UPD_0% = Install_UNIVP_PS_NT60, WSDPRINT\XeroxPhaser_5500DTC70F,USBPRINT\XeroxPhaser_5500DTC70F,XeroxPhaser_5500DTC70F
+%Xerox_UPD_0% = Install_UNIVP_PS_NT60, WSDPRINT\XeroxPhaser_5500DXC20F,USBPRINT\XeroxPhaser_5500DXC20F,XeroxPhaser_5500DXC20F
+%Xerox_UPD_0% = Install_UNIVP_PS_NT60, WSDPRINT\XeroxPhaser_5550B4DCF,USBPRINT\XeroxPhaser_5550B4DCF,XeroxPhaser_5550B4DCF
+%Xerox_UPD_0% = Install_UNIVP_PS_NT60, WSDPRINT\XeroxPhaser_5550N48CF,USBPRINT\XeroxPhaser_5550N48CF,XeroxPhaser_5550N48CF
+%Xerox_UPD_0% = Install_UNIVP_PS_NT60, WSDPRINT\XeroxPhaser_5550DNC08E,USBPRINT\XeroxPhaser_5550DNC08E,XeroxPhaser_5550DNC08E
+%Xerox_UPD_0% = Install_UNIVP_PS_NT60, WSDPRINT\XeroxPhaser_5550DT0B0F,USBPRINT\XeroxPhaser_5550DT0B0F,XeroxPhaser_5550DT0B0F
+%Xerox_UPD_0% = Install_UNIVP_PS_NT60, WSDPRINT\XeroxPhaser_6180NFF1B,USBPRINT\XeroxPhaser_6180NFF1B,XeroxPhaser_6180NFF1B
+%Xerox_UPD_0% = Install_UNIVP_PS_NT60, WSDPRINT\XeroxPhaser_6180DN9F39,USBPRINT\XeroxPhaser_6180DN9F39,XeroxPhaser_6180DN9F39
+%Xerox_UPD_0% = Install_UNIVP_PS_NT60, WSDPRINT\XeroxPhaser_6180DT54B8,USBPRINT\XeroxPhaser_6180DT54B8,XeroxPhaser_6180DT54B8
+%Xerox_UPD_0% = Install_UNIVP_PS_NT60, WSDPRINT\XeroxPhaser_6180DT54B8,USBPRINT\XeroxPhaser_6180DT54B8,XeroxPhaser_6180DT54B8
+%Xerox_UPD_0% = Install_UNIVP_PS_NT60, WSDPRINT\XeroxPhaser_6250B398A,USBPRINT\XeroxPhaser_6250B398A,XeroxPhaser_6250B398A
+%Xerox_UPD_0% = Install_UNIVP_PS_NT60, WSDPRINT\XeroxPhaser_6250N3C8A,USBPRINT\XeroxPhaser_6250N3C8A,XeroxPhaser_6250N3C8A
+%Xerox_UPD_0% = Install_UNIVP_PS_NT60, WSDPRINT\XeroxPhaser_6250DP3BBB,USBPRINT\XeroxPhaser_6250DP3BBB,XeroxPhaser_6250DP3BBB
+%Xerox_UPD_0% = Install_UNIVP_PS_NT60, WSDPRINT\XeroxPhaser_6250DTF8BA,USBPRINT\XeroxPhaser_6250DTF8BA,XeroxPhaser_6250DTF8BA
+%Xerox_UPD_0% = Install_UNIVP_PS_NT60, WSDPRINT\XeroxPhaser_6250DXFDBA,USBPRINT\XeroxPhaser_6250DXFDBA,XeroxPhaser_6250DXFDBA
+%Xerox_UPD_0% = Install_UNIVP_PS_NT60, WSDPRINT\XeroxPhaser_6280NFF1B,USBPRINT\XeroxPhaser_6280NFF1B,XeroxPhaser_6280NFF1B
+%Xerox_UPD_0% = Install_UNIVP_PS_NT60, WSDPRINT\XeroxPhaser_6280DN9F39,USBPRINT\XeroxPhaser_6280DN9F39,XeroxPhaser_6280DN9F39
+%Xerox_UPD_0% = Install_UNIVP_PS_NT60, WSDPRINT\XeroxPhaser_6280DT54B8,USBPRINT\XeroxPhaser_6280DT54B8,XeroxPhaser_6280DT54B8
+%Xerox_UPD_0% = Install_UNIVP_PS_NT60, WSDPRINT\XeroxPhaser_6300NC19B,USBPRINT\XeroxPhaser_6300NC19B,XeroxPhaser_6300NC19B
+%Xerox_UPD_0% = Install_UNIVP_PS_NT60, WSDPRINT\XeroxPhaser_6300DN3F06,USBPRINT\XeroxPhaser_6300DN3F06,XeroxPhaser_6300DN3F06
+%Xerox_UPD_0% = Install_UNIVP_PS_NT60, WSDPRINT\XeroxPhaser_6350DPFB86,USBPRINT\XeroxPhaser_6350DPFB86,XeroxPhaser_6350DPFB86
+%Xerox_UPD_0% = Install_UNIVP_PS_NT60, WSDPRINT\XeroxPhaser_6350DT3887,USBPRINT\XeroxPhaser_6350DT3887,XeroxPhaser_6350DT3887
+%Xerox_UPD_0% = Install_UNIVP_PS_NT60, WSDPRINT\XeroxPhaser_6350DX3D87,USBPRINT\XeroxPhaser_6350DX3D87,XeroxPhaser_6350DX3D87
+%Xerox_UPD_0% = Install_UNIVP_PS_NT60, WSDPRINT\XeroxPhaser_6360NC07B,USBPRINT\XeroxPhaser_6360NC07B,XeroxPhaser_6360NC07B
+%Xerox_UPD_0% = Install_UNIVP_PS_NT60, WSDPRINT\XeroxPhaser_6360DNB706,USBPRINT\XeroxPhaser_6360DNB706,XeroxPhaser_6360DNB706
+%Xerox_UPD_0% = Install_UNIVP_PS_NT60, WSDPRINT\XeroxPhaser_6360DT7C87,USBPRINT\XeroxPhaser_6360DT7C87,XeroxPhaser_6360DT7C87
+%Xerox_UPD_0% = Install_UNIVP_PS_NT60, WSDPRINT\XeroxPhaser_6360DX7987,USBPRINT\XeroxPhaser_6360DX7987,XeroxPhaser_6360DX7987
+%Xerox_UPD_0% = Install_UNIVP_PS_NT60, WSDPRINT\XeroxPhaser_7400N15A6,USBPRINT\XeroxPhaser_7400N15A6,XeroxPhaser_7400N15A6
+%Xerox_UPD_0% = Install_UNIVP_PS_NT60, WSDPRINT\XeroxPhaser_7400DNEE13,USBPRINT\XeroxPhaser_7400DNEE13,XeroxPhaser_7400DNEE13
+%Xerox_UPD_0% = Install_UNIVP_PS_NT60, WSDPRINT\XeroxPhaser_7400DT2592,USBPRINT\XeroxPhaser_7400DT2592,XeroxPhaser_7400DT2592
+%Xerox_UPD_0% = Install_UNIVP_PS_NT60, WSDPRINT\XeroxPhaser_7400DX2092,USBPRINT\XeroxPhaser_7400DX2092,XeroxPhaser_7400DX2092
+%Xerox_UPD_0% = Install_UNIVP_PS_NT60, WSDPRINT\XeroxPhaser_7400DXF5F20,USBPRINT\XeroxPhaser_7400DXF5F20,XeroxPhaser_7400DXF5F20
+%Xerox_UPD_0% = Install_UNIVP_PS_NT60, WSDPRINT\XeroxPhaser_7750B55B6,USBPRINT\XeroxPhaser_7750B55B6,XeroxPhaser_7750B55B6
+%Xerox_UPD_0% = Install_UNIVP_PS_NT60, WSDPRINT\XeroxPhaser_7750DN2257,USBPRINT\XeroxPhaser_7750DN2257,XeroxPhaser_7750DN2257
+%Xerox_UPD_0% = Install_UNIVP_PS_NT60, WSDPRINT\XeroxPhaser_7750GX1CD6,USBPRINT\XeroxPhaser_7750GX1CD6,XeroxPhaser_7750GX1CD6
+%Xerox_UPD_0% = Install_UNIVP_PS_NT60, WSDPRINT\XeroxPhaser_7750DX6CEC,USBPRINT\XeroxPhaser_7750DX6CEC,XeroxPhaser_7750DX6CEC
+%Xerox_UPD_0% = Install_UNIVP_PS_NT60, WSDPRINT\XeroxPhaser_7760DNA7D6,USBPRINT\XeroxPhaser_7760DNA7D6,XeroxPhaser_7760DNA7D6
+%Xerox_UPD_0% = Install_UNIVP_PS_NT60, WSDPRINT\XeroxPhaser_7760GX9957,USBPRINT\XeroxPhaser_7760GX9957,XeroxPhaser_7760GX9957
+%Xerox_UPD_0% = Install_UNIVP_PS_NT60, WSDPRINT\XeroxPhaser_7760DX6957,USBPRINT\XeroxPhaser_7760DX6957,XeroxPhaser_7760DX6957
+%Xerox_UPD_0% = Install_UNIVP_PS_NT60, WSDPRINT\XeroxPhaser_8400B71F3,USBPRINT\XeroxPhaser_8400B71F3,XeroxPhaser_8400B71F3
+%Xerox_UPD_0% = Install_UNIVP_PS_NT60, WSDPRINT\XeroxPhaser_8400N74F3,USBPRINT\XeroxPhaser_8400N74F3,XeroxPhaser_8400N74F3
+%Xerox_UPD_0% = Install_UNIVP_PS_NT60, WSDPRINT\XeroxPhaser_8400DPD932,USBPRINT\XeroxPhaser_8400DPD932,XeroxPhaser_8400DPD932
+%Xerox_UPD_0% = Install_UNIVP_PS_NT60, WSDPRINT\XeroxPhaser_8400DX1F33,USBPRINT\XeroxPhaser_8400DX1F33,XeroxPhaser_8400DX1F33
+%Xerox_UPD_0% = Install_UNIVP_PS_NT60, WSDPRINT\XeroxPhaser_8500N88F2,USBPRINT\XeroxPhaser_8500N88F2,XeroxPhaser_8500N88F2
+%Xerox_UPD_0% = Install_UNIVP_PS_NT60, WSDPRINT\XeroxPhaser_8500DN118F,USBPRINT\XeroxPhaser_8500DN118F,XeroxPhaser_8500DN118F
+%Xerox_UPD_0% = Install_UNIVP_PS_NT60, WSDPRINT\XeroxPhaser_8550DPD50F,USBPRINT\XeroxPhaser_8550DPD50F,XeroxPhaser_8550DPD50F
+%Xerox_UPD_0% = Install_UNIVP_PS_NT60, WSDPRINT\XeroxPhaser_8550DT160E,USBPRINT\XeroxPhaser_8550DT160E,XeroxPhaser_8550DT160E
+%Xerox_UPD_0% = Install_UNIVP_PS_NT60, WSDPRINT\XeroxPhaser_8550DX130E,USBPRINT\XeroxPhaser_8550DX130E,XeroxPhaser_8550DX130E
+%Xerox_UPD_0% = Install_UNIVP_PS_NT60, WSDPRINT\XeroxPhaser_8560N8912,USBPRINT\XeroxPhaser_8560N8912,XeroxPhaser_8560N8912
+%Xerox_UPD_0% = Install_UNIVP_PS_NT60, WSDPRINT\XeroxPhaser_8560DN998F,USBPRINT\XeroxPhaser_8560DN998F,XeroxPhaser_8560DN998F
+%Xerox_UPD_0% = Install_UNIVP_PS_NT60, WSDPRINT\XeroxPhaser_8560DT520E,USBPRINT\XeroxPhaser_8560DT520E,XeroxPhaser_8560DT520E
+%Xerox_UPD_0% = Install_UNIVP_PS_NT60, WSDPRINT\XeroxPhaser_8560DX570E,USBPRINT\XeroxPhaser_8560DX570E,XeroxPhaser_8560DX570E
+%Xerox_UPD_0% = Install_UNIVP_PS_NT60, WSDPRINT\XeroxPhaser_856053AD,USBPRINT\XeroxPhaser_856053AD,XeroxPhaser_856053AD
+%Xerox_UPD_0% = Install_UNIVP_PS_NT60, WSDPRINT\XeroxPhaser_8860903C,USBPRINT\XeroxPhaser_8860903C,XeroxPhaser_8860903C
+%Xerox_UPD_0% = Install_UNIVP_PS_NT60, WSDPRINT\XeroxPhaser_8860MFP450E,USBPRINT\XeroxPhaser_8860MFP450E,XeroxPhaser_8860MFP450E
+%Xerox_UPD_0% = Install_UNIVP_PS_NT60, WSDPRINT\XeroxXerox_770_DigitD382,USBPRINT\XeroxXerox_770_DigitD382,XeroxXerox_770_DigitD382
+%Xerox_UPD_0% = Install_UNIVP_PS_NT60, WSDPRINT\XeroxColor_8250_Prod656C,USBPRINT\XeroxColor_8250_Prod656C,XeroxColor_8250_Prod656C
+%Xerox_UPD_0% = Install_UNIVP_PS_NT60, WSDPRINT\XeroxXerox_Color_800479A,USBPRINT\XeroxXerox_Color_800479A,XeroxXerox_Color_800479A
+%Xerox_UPD_0% = Install_UNIVP_PS_NT60, WSDPRINT\XeroxXerox_Color_100E6D3,USBPRINT\XeroxXerox_Color_100E6D3,XeroxXerox_Color_100E6D3
+%Xerox_UPD_0% = Install_UNIVP_PS_NT60, WSDPRINT\XeroxXerox_Color_550368C,USBPRINT\XeroxXerox_Color_550368C,XeroxXerox_Color_550368C
+%Xerox_UPD_0% = Install_UNIVP_PS_NT60, WSDPRINT\XeroxXerox_Color_560397C,USBPRINT\XeroxXerox_Color_560397C,XeroxXerox_Color_560397C
+%Xerox_UPD_0% = Install_UNIVP_PS_NT60, WSDPRINT\XeroxXerox_Color_5708D64,USBPRINT\XeroxXerox_Color_5708D64,XeroxXerox_Color_5708D64
+%Xerox_UPD_0% = Install_UNIVP_PS_NT60, WSDPRINT\XeroxDocuPrint_1050_D09E,USBPRINT\XeroxDocuPrint_1050_D09E,XeroxDocuPrint_1050_D09E
+%Xerox_UPD_0% = Install_UNIVP_PS_NT60, WSDPRINT\XeroxDocuPrint_1000_D18E,USBPRINT\XeroxDocuPrint_1000_D18E,XeroxDocuPrint_1000_D18E
+%Xerox_UPD_0% = Install_UNIVP_PS_NT60, WSDPRINT\XeroxDocuPrint_350_3A0D,USBPRINT\XeroxDocuPrint_350_3A0D,XeroxDocuPrint_350_3A0D
+%Xerox_UPD_0% = Install_UNIVP_PS_NT60, WSDPRINT\XeroxDocuPrint_425_DFBE,USBPRINT\XeroxDocuPrint_425_DFBE,XeroxDocuPrint_425_DFBE
+%Xerox_UPD_0% = Install_UNIVP_PS_NT60, WSDPRINT\XeroxDocuPrint_500_B31D,USBPRINT\XeroxDocuPrint_500_B31D,XeroxDocuPrint_500_B31D
+%Xerox_UPD_0% = Install_UNIVP_PS_NT60, WSDPRINT\XeroxDocuPrint_525_23BF,USBPRINT\XeroxDocuPrint_525_23BF,XeroxDocuPrint_525_23BF
+%Xerox_UPD_0% = Install_UNIVP_PS_NT60, WSDPRINT\XeroxDocuPrint_700_0B1C,USBPRINT\XeroxDocuPrint_700_0B1C,XeroxDocuPrint_700_0B1C
+%Xerox_UPD_0% = Install_UNIVP_PS_NT60, WSDPRINT\XeroxDocuPrint_850_1E0F,USBPRINT\XeroxDocuPrint_850_1E0F,XeroxDocuPrint_850_1E0F
+%Xerox_UPD_0% = Install_UNIVP_PS_NT60, WSDPRINT\Xerox1300_CF_E28E,USBPRINT\Xerox1300_CF_E28E,Xerox1300_CF_E28E
+%Xerox_UPD_0% = Install_UNIVP_PS_NT60, WSDPRINT\Xerox650_CF_F559,USBPRINT\Xerox650_CF_F559,Xerox650_CF_F559
+%Xerox_UPD_0% = Install_UNIVP_PS_NT60, WSDPRINT\Xerox495_CFB7DC,USBPRINT\Xerox495_CFB7DC,Xerox495_CFB7DC
+%Xerox_UPD_0% = Install_UNIVP_PS_NT60, WSDPRINT\XeroxPhaser_6700NF19A,USBPRINT\XeroxPhaser_6700NF19A,XeroxPhaser_6700NF19A
+%Xerox_UPD_0% = Install_UNIVP_PS_NT60, WSDPRINT\XeroxPhaser_6700DNFFF7,USBPRINT\XeroxPhaser_6700DNFFF7,XeroxPhaser_6700DNFFF7
+%Xerox_UPD_0% = Install_UNIVP_PS_NT60, WSDPRINT\XeroxPhaser_6700DT3476,USBPRINT\XeroxPhaser_6700DT3476,XeroxPhaser_6700DT3476
+%Xerox_UPD_0% = Install_UNIVP_PS_NT60, WSDPRINT\XeroxPhaser_6700DX3176,USBPRINT\XeroxPhaser_6700DX3176,XeroxPhaser_6700DX3176
+%Xerox_UPD_0% = Install_UNIVP_PS_NT60, WSDPRINT\XeroxWorkCentre_72250254,USBPRINT\XeroxWorkCentre_72250254,XeroxWorkCentre_72250254
+%Xerox_UPD_0% = Install_UNIVP_PS_NT60, WSDPRINT\XeroxWorkCentre_72200194,USBPRINT\XeroxWorkCentre_72200194,XeroxWorkCentre_72200194
+%Xerox_UPD_0% = Install_UNIVP_PS_NT60, WSDPRINT\XeroxWorkCentre_77755345,USBPRINT\XeroxWorkCentre_77755345,XeroxWorkCentre_77755345
+%Xerox_UPD_0% = Install_UNIVP_PS_NT60, WSDPRINT\XeroxWorkCentre_7765C344,USBPRINT\XeroxWorkCentre_7765C344,XeroxWorkCentre_7765C344
+%Xerox_UPD_0% = Install_UNIVP_PS_NT60, WSDPRINT\XeroxWorkCentre_77553344,USBPRINT\XeroxWorkCentre_77553344,XeroxWorkCentre_77553344
+%Xerox_UPD_0% = Install_UNIVP_PS_NT60, WSDPRINT\XeroxWorkCentre_58451876,USBPRINT\XeroxWorkCentre_58451876,XeroxWorkCentre_58451876
+%Xerox_UPD_0% = Install_UNIVP_PS_NT60, WSDPRINT\XeroxWorkCentre_58558877,USBPRINT\XeroxWorkCentre_58558877,XeroxWorkCentre_58558877
+%Xerox_UPD_0% = Install_UNIVP_PS_NT60, WSDPRINT\XeroxWorkCentre_58657877,USBPRINT\XeroxWorkCentre_58657877,XeroxWorkCentre_58657877
+%Xerox_UPD_0% = Install_UNIVP_PS_NT60, WSDPRINT\XeroxWorkCentre_5875E876,USBPRINT\XeroxWorkCentre_5875E876,XeroxWorkCentre_5875E876
+%Xerox_UPD_0% = Install_UNIVP_PS_NT60, WSDPRINT\XeroxWorkCentre_58908BB2,USBPRINT\XeroxWorkCentre_58908BB2,XeroxWorkCentre_58908BB2
+%Xerox_UPD_0% = Install_UNIVP_PS_NT60, WSDPRINT\XeroxColorQube_8700SE273,USBPRINT\XeroxColorQube_8700SE273,XeroxColorQube_8700SE273
+%Xerox_UPD_0% = Install_UNIVP_PS_NT60, WSDPRINT\XeroxColorQube_8700X2532,USBPRINT\XeroxColorQube_8700X2532,XeroxColorQube_8700X2532
+%Xerox_UPD_0% = Install_UNIVP_PS_NT60, WSDPRINT\XeroxColorQube_8700X2725,USBPRINT\XeroxColorQube_8700X2725,XeroxColorQube_8700X2725
+%Xerox_UPD_0% = Install_UNIVP_PS_NT60, WSDPRINT\XeroxColorQube_8900S0A71,USBPRINT\XeroxColorQube_8900S0A71,XeroxColorQube_8900S0A71
+%Xerox_UPD_0% = Install_UNIVP_PS_NT60, WSDPRINT\XeroxColorQube_8900XCD30,USBPRINT\XeroxColorQube_8900XCD30,XeroxColorQube_8900XCD30
+%Xerox_UPD_0% = Install_UNIVP_PS_NT60, WSDPRINT\XeroxWorkCentre_7556F2A7,USBPRINT\XeroxWorkCentre_7556F2A7,XeroxWorkCentre_7556F2A7
+%Xerox_UPD_0% = Install_UNIVP_PS_NT60, WSDPRINT\XeroxWorkCentre_754563E6,USBPRINT\XeroxWorkCentre_754563E6,XeroxWorkCentre_754563E6
+%Xerox_UPD_0% = Install_UNIVP_PS_NT60, WSDPRINT\XeroxWorkCentre_753553E4,USBPRINT\XeroxWorkCentre_753553E4,XeroxWorkCentre_753553E4
+%Xerox_UPD_0% = Install_UNIVP_PS_NT60, WSDPRINT\XeroxWorkCentre_75305024,USBPRINT\XeroxWorkCentre_75305024,XeroxWorkCentre_75305024
+%Xerox_UPD_0% = Install_UNIVP_PS_NT60, WSDPRINT\XeroxWorkCentre_7525C3E5,USBPRINT\XeroxWorkCentre_7525C3E5,XeroxWorkCentre_7525C3E5
+%Xerox_UPD_0% = Install_UNIVP_PS_NT60, WSDPRINT\XeroxWorkCentre_64001ADC,USBPRINT\XeroxWorkCentre_64001ADC,XeroxWorkCentre_64001ADC
+%Xerox_UPD_0% = Install_UNIVP_PS_NT60, WSDPRINT\XeroxWorkCentre_6400DD9D,USBPRINT\XeroxWorkCentre_6400DD9D,XeroxWorkCentre_6400DD9D
+%Xerox_UPD_0% = Install_UNIVP_PS_NT60, WSDPRINT\XeroxWorkCentre_64005B9D,USBPRINT\XeroxWorkCentre_64005B9D,XeroxWorkCentre_64005B9D
+%Xerox_UPD_0% = Install_UNIVP_PS_NT60, WSDPRINT\XeroxWorkCentre_78553076,USBPRINT\XeroxWorkCentre_78553076,XeroxWorkCentre_78553076
+%Xerox_UPD_0% = Install_UNIVP_PS_NT60, WSDPRINT\XeroxWorkCentre_7845A077,USBPRINT\XeroxWorkCentre_7845A077,XeroxWorkCentre_7845A077
+%Xerox_UPD_0% = Install_UNIVP_PS_NT60, WSDPRINT\XeroxWorkCentre_78359075,USBPRINT\XeroxWorkCentre_78359075,XeroxWorkCentre_78359075
+%Xerox_UPD_0% = Install_UNIVP_PS_NT60, WSDPRINT\XeroxWorkCentre_783093B5,USBPRINT\XeroxWorkCentre_783093B5,XeroxWorkCentre_783093B5
+%Xerox_UPD_0% = Install_UNIVP_PS_NT60, WSDPRINT\XeroxColorQube_93038E2A,USBPRINT\XeroxColorQube_93038E2A,XeroxColorQube_93038E2A
+%Xerox_UPD_0% = Install_UNIVP_PS_NT60, WSDPRINT\XeroxColorQube_93024EEB,USBPRINT\XeroxColorQube_93024EEB,XeroxColorQube_93024EEB
+%Xerox_UPD_0% = Install_UNIVP_PS_NT60, WSDPRINT\XeroxColorQube_93014FAB,USBPRINT\XeroxColorQube_93014FAB,XeroxColorQube_93014FAB
+%Xerox_UPD_0% = Install_UNIVP_PS_NT60, WSDPRINT\XeroxPhaser_7800DNEF01,USBPRINT\XeroxPhaser_7800DNEF01,XeroxPhaser_7800DNEF01
+%Xerox_UPD_0% = Install_UNIVP_PS_NT60, WSDPRINT\XeroxPhaser_7800GXD180,USBPRINT\XeroxPhaser_7800GXD180,XeroxPhaser_7800GXD180
+%Xerox_UPD_0% = Install_UNIVP_PS_NT60, WSDPRINT\XeroxPhaser_7800DX2180,USBPRINT\XeroxPhaser_7800DX2180,XeroxPhaser_7800DX2180
+%Xerox_UPD_0% = Install_UNIVP_PS_NT60, WSDPRINT\XeroxDocuColor_8000_6722,USBPRINT\XeroxDocuColor_8000_6722,XeroxDocuColor_8000_6722
+%Xerox_UPD_0% = Install_UNIVP_PS_NT60, WSDPRINT\XeroxDocuColor_7000_0677,USBPRINT\XeroxDocuColor_7000_0677,XeroxDocuColor_7000_0677
+%Xerox_UPD_0% = Install_UNIVP_PS_NT60, WSDPRINT\XeroxDocuColor_5000_0F76,USBPRINT\XeroxDocuColor_5000_0F76,XeroxDocuColor_5000_0F76
+%Xerox_UPD_0% = Install_UNIVP_PS_NT60, WSDPRINT\XeroxPhaser_6600N0D9B,USBPRINT\XeroxPhaser_6600N0D9B,XeroxPhaser_6600N0D9B
+%Xerox_UPD_0% = Install_UNIVP_PS_NT60, WSDPRINT\XeroxPhaser_6600DN3FCA,USBPRINT\XeroxPhaser_6600DN3FCA,XeroxPhaser_6600DN3FCA
+%Xerox_UPD_0% = Install_UNIVP_PS_NT60, WSDPRINT\XeroxWorkCentre_6605FB1E,USBPRINT\XeroxWorkCentre_6605FB1E,XeroxWorkCentre_6605FB1E
+%Xerox_UPD_0% = Install_UNIVP_PS_NT60, WSDPRINT\XeroxWorkCentre_66059CFD,USBPRINT\XeroxWorkCentre_66059CFD,XeroxWorkCentre_66059CFD
+%Xerox_UPD_0% = Install_UNIVP_PS_NT60, WSDPRINT\XeroxPhaser_7100ND9A6,USBPRINT\XeroxPhaser_7100ND9A6,XeroxPhaser_7100ND9A6
+%Xerox_UPD_0% = Install_UNIVP_PS_NT60, WSDPRINT\XeroxPhaser_7100DNEEDF,USBPRINT\XeroxPhaser_7100DNEEDF,XeroxPhaser_7100DNEEDF
+%Xerox_UPD_0% = Install_UNIVP_PS_NT60, WSDPRINT\XeroxWorkCentre_71200164,USBPRINT\XeroxWorkCentre_71200164,XeroxWorkCentre_71200164
+%Xerox_UPD_0% = Install_UNIVP_PS_NT60, WSDPRINT\XeroxWorkCentre_712502A4,USBPRINT\XeroxWorkCentre_712502A4,XeroxWorkCentre_712502A4
+%Xerox_UPD_0% = Install_UNIVP_PS_NT60, WSDPRINT\XeroxColor_55012F0,USBPRINT\XeroxColor_55012F0,XeroxColor_55012F0
+%Xerox_UPD_0% = Install_UNIVP_PS_NT60, WSDPRINT\XeroxColor_560E2F0,USBPRINT\XeroxColor_560E2F0,XeroxColor_560E2F0
+%Xerox_UPD_0% = Install_UNIVP_PS_NT60, WSDPRINT\XeroxColor_57072F1,USBPRINT\XeroxColor_57072F1,XeroxColor_57072F1
+%Xerox_UPD_0% = Install_UNIVP_PS_NT60, WSDPRINT\FUJI_XEROXApeosPort-BECF,USBPRINT\FUJI_XEROXApeosPort-BECF
+%Xerox_UPD_0% = Install_UNIVP_PS_NT60, WSDPRINT\FUJI_XEROXApeosPort-BECF,USBPRINT\FUJI_XEROXApeosPort-BECF
+%Xerox_UPD_0% = Install_UNIVP_PS_NT60, WSDPRINT\XeroxWorkCentre_72426016,USBPRINT\XeroxWorkCentre_72426016,XeroxWorkCentre_72426016
+%Xerox_UPD_0% = Install_UNIVP_PS_NT60, WSDPRINT\XeroxWorkCentre_72325014,USBPRINT\XeroxWorkCentre_72325014,XeroxWorkCentre_72325014
+%Xerox_UPD_0% = Install_UNIVP_PS_NT60, WSDPRINT\FUJI_XEROXApeosPort-DE09,USBPRINT\FUJI_XEROXApeosPort-DE09,FUJI_XEROXApeosPort-DE09
+%Xerox_UPD_0% = Install_UNIVP_PS_NT60, WSDPRINT\FUJI_XEROXApeosPort-E235,USBPRINT\FUJI_XEROXApeosPort-E235,FUJI_XEROXApeosPort-E235
+%Xerox_UPD_0% = Install_UNIVP_PS_NT60, WSDPRINT\FUJI_XEROXApeosPort-A671,USBPRINT\FUJI_XEROXApeosPort-A671,FUJI_XEROXApeosPort-A671
+%Xerox_UPD_0% = Install_UNIVP_PS_NT60, WSDPRINT\FUJI_XEROXDocuCentre252A,USBPRINT\FUJI_XEROXDocuCentre252A,FUJI_XEROXDocuCentre252A
+%Xerox_UPD_0% = Install_UNIVP_PS_NT60, WSDPRINT\FUJI_XEROXDocuCentre1916,USBPRINT\FUJI_XEROXDocuCentre1916,FUJI_XEROXDocuCentre1916
+%Xerox_UPD_0% = Install_UNIVP_PS_NT60, WSDPRINT\FUJI_XEROXDocuCentre5D52,USBPRINT\FUJI_XEROXDocuCentre5D52,FUJI_XEROXDocuCentre5D52
+%Xerox_UPD_0% = Install_UNIVP_PS_NT60, WSDPRINT\FUJI_XEROXApeosPort-C809,USBPRINT\FUJI_XEROXApeosPort-C809,FUJI_XEROXApeosPort-C809
+%Xerox_UPD_0% = Install_UNIVP_PS_NT60, WSDPRINT\FUJI_XEROXApeosPort-F459,USBPRINT\FUJI_XEROXApeosPort-F459,FUJI_XEROXApeosPort-F459
+%Xerox_UPD_0% = Install_UNIVP_PS_NT60, WSDPRINT\FUJI_XEROXApeosPort-B0A9,USBPRINT\FUJI_XEROXApeosPort-B0A9,FUJI_XEROXApeosPort-B0A9
+%Xerox_UPD_0% = Install_UNIVP_PS_NT60, WSDPRINT\FUJI_XEROXDocuCentreAA52,USBPRINT\FUJI_XEROXDocuCentreAA52,FUJI_XEROXDocuCentreAA52
+%Xerox_UPD_0% = Install_UNIVP_PS_NT60, WSDPRINT\FUJI_XEROXDocuCentre9602,USBPRINT\FUJI_XEROXDocuCentre9602,FUJI_XEROXDocuCentre9602
+%Xerox_UPD_0% = Install_UNIVP_PS_NT60, WSDPRINT\FUJI_XEROXDocuCentreD2F2,USBPRINT\FUJI_XEROXDocuCentreD2F2,FUJI_XEROXDocuCentreD2F2
+%Xerox_UPD_0% = Install_UNIVP_PS_NT60, WSDPRINT\FUJI_XEROXApeosPort-7B4F,USBPRINT\FUJI_XEROXApeosPort-7B4F,FUJI_XEROXApeosPort-7B4F
+%Xerox_UPD_0% = Install_UNIVP_PS_NT60, WSDPRINT\FUJI_XEROXApeosPort-BBFA,USBPRINT\FUJI_XEROXApeosPort-BBFA,FUJI_XEROXApeosPort-BBFA
+%Xerox_UPD_0% = Install_UNIVP_PS_NT60, WSDPRINT\FUJI_XEROXApeosPort-7BC7,USBPRINT\FUJI_XEROXApeosPort-7BC7,FUJI_XEROXApeosPort-7BC7
+%Xerox_UPD_0% = Install_UNIVP_PS_NT60, WSDPRINT\FUJI_XEROXDocuCentre1820,USBPRINT\FUJI_XEROXDocuCentre1820,FUJI_XEROXDocuCentre1820
+%Xerox_UPD_0% = Install_UNIVP_PS_NT60, WSDPRINT\FUJI_XEROXDocuCentreD81D,USBPRINT\FUJI_XEROXDocuCentreD81D,FUJI_XEROXDocuCentreD81D
+%Xerox_UPD_0% = Install_UNIVP_PS_NT60, WSDPRINT\FUJI_XEROXApeosPort-8F85,USBPRINT\FUJI_XEROXApeosPort-8F85,FUJI_XEROXApeosPort-8F85
+%Xerox_UPD_0% = Install_UNIVP_PS_NT60, WSDPRINT\FUJI_XEROXApeosPort-FB84,USBPRINT\FUJI_XEROXApeosPort-FB84,FUJI_XEROXApeosPort-FB84
+%Xerox_UPD_0% = Install_UNIVP_PS_NT60, WSDPRINT\FUJI_XEROXDocuCentre9400,USBPRINT\FUJI_XEROXDocuCentre9400,FUJI_XEROXDocuCentre9400
+%Xerox_UPD_0% = Install_UNIVP_PS_NT60, WSDPRINT\FUJI_XEROXDocuCentreE001,USBPRINT\FUJI_XEROXDocuCentreE001,FUJI_XEROXDocuCentreE001
+%Xerox_UPD_0% = Install_UNIVP_PS_NT60, WSDPRINT\FUJI_XEROXApeosPort-11F5,USBPRINT\FUJI_XEROXApeosPort-11F5,FUJI_XEROXApeosPort-11F5
+%Xerox_UPD_0% = Install_UNIVP_PS_NT60, WSDPRINT\FUJI_XEROXApeosPort-2DC9,USBPRINT\FUJI_XEROXApeosPort-2DC9,FUJI_XEROXApeosPort-2DC9
+%Xerox_UPD_0% = Install_UNIVP_PS_NT60, WSDPRINT\FUJI_XEROXApeosPort-BDC8,USBPRINT\FUJI_XEROXApeosPort-BDC8,FUJI_XEROXApeosPort-BDC8
+%Xerox_UPD_0% = Install_UNIVP_PS_NT60, WSDPRINT\FUJI_XEROXApeosPort-997D,USBPRINT\FUJI_XEROXApeosPort-997D,FUJI_XEROXApeosPort-997D
+%Xerox_UPD_0% = Install_UNIVP_PS_NT60, WSDPRINT\FUJI_XEROXApeosPort-A543,USBPRINT\FUJI_XEROXApeosPort-A543,FUJI_XEROXApeosPort-A543
+%Xerox_UPD_0% = Install_UNIVP_PS_NT60, WSDPRINT\FUJI_XEROXDocuCentreEAD6,USBPRINT\FUJI_XEROXDocuCentreEAD6,FUJI_XEROXDocuCentreEAD6
+%Xerox_UPD_0% = Install_UNIVP_PS_NT60, WSDPRINT\FUJI_XEROXDocuCentreD6EA,USBPRINT\FUJI_XEROXDocuCentreD6EA,FUJI_XEROXDocuCentreD6EA
+%Xerox_UPD_0% = Install_UNIVP_PS_NT60, WSDPRINT\FUJI_XEROXDocuCentre44EB,USBPRINT\FUJI_XEROXDocuCentre44EB,FUJI_XEROXDocuCentre44EB
+%Xerox_UPD_0% = Install_UNIVP_PS_NT60, WSDPRINT\FUJI_XEROXDocuCentre625E,USBPRINT\FUJI_XEROXDocuCentre625E,FUJI_XEROXDocuCentre625E
+%Xerox_UPD_0% = Install_UNIVP_PS_NT60, WSDPRINT\FUJI_XEROXDocuCentre5E62,USBPRINT\FUJI_XEROXDocuCentre5E62,FUJI_XEROXDocuCentre5E62
+%Xerox_UPD_0% = Install_UNIVP_PS_NT60, WSDPRINT\FUJI_XEROXApeosPort-42AC,USBPRINT\FUJI_XEROXApeosPort-42AC,FUJI_XEROXApeosPort-42AC
+%Xerox_UPD_0% = Install_UNIVP_PS_NT60, WSDPRINT\FUJI_XEROXApeosPort-C94C,USBPRINT\FUJI_XEROXApeosPort-C94C,FUJI_XEROXApeosPort-C94C
+%Xerox_UPD_0% = Install_UNIVP_PS_NT60, WSDPRINT\FUJI_XEROXApeosPort-7CFC,USBPRINT\FUJI_XEROXApeosPort-7CFC,FUJI_XEROXApeosPort-7CFC
+%Xerox_UPD_0% = Install_UNIVP_PS_NT60, WSDPRINT\FUJI_XEROXApeosPort-42AC,USBPRINT\FUJI_XEROXApeosPort-42AC,FUJI_XEROXApeosPort-42AC
+%Xerox_UPD_0% = Install_UNIVP_PS_NT60, WSDPRINT\FUJI_XEROXDocuCentre9747,USBPRINT\FUJI_XEROXDocuCentre9747,FUJI_XEROXDocuCentre9747
+%Xerox_UPD_0% = Install_UNIVP_PS_NT60, WSDPRINT\FUJI_XEROXDocuCentreAB17,USBPRINT\FUJI_XEROXDocuCentreAB17,FUJI_XEROXDocuCentreAB17
+%Xerox_UPD_0% = Install_UNIVP_PS_NT60, WSDPRINT\FUJI_XEROXDocuCentre1EA7,USBPRINT\FUJI_XEROXDocuCentre1EA7,FUJI_XEROXDocuCentre1EA7
+%Xerox_UPD_0% = Install_UNIVP_PS_NT60, WSDPRINT\FUJI_XEROXDocuCentre22F7,USBPRINT\FUJI_XEROXDocuCentre22F7,FUJI_XEROXDocuCentre22F7
+%Xerox_UPD_0% = Install_UNIVP_PS_NT60, WSDPRINT\FUJI_XEROXApeosPort-43F6,USBPRINT\FUJI_XEROXApeosPort-43F6,FUJI_XEROXApeosPort-43F6
+%Xerox_UPD_0% = Install_UNIVP_PS_NT60, WSDPRINT\FUJI_XEROXApeosPort-DDC9,USBPRINT\FUJI_XEROXApeosPort-DDC9,FUJI_XEROXApeosPort-DDC9
+%Xerox_UPD_0% = Install_UNIVP_PS_NT60, WSDPRINT\FUJI_XEROXApeosPort-7DCA,USBPRINT\FUJI_XEROXApeosPort-7DCA,FUJI_XEROXApeosPort-7DCA
+%Xerox_UPD_0% = Install_UNIVP_PS_NT60, WSDPRINT\FUJI_XEROXApeosPort-C97E,USBPRINT\FUJI_XEROXApeosPort-C97E,FUJI_XEROXApeosPort-C97E
+%Xerox_UPD_0% = Install_UNIVP_PS_NT60, WSDPRINT\FUJI_XEROXApeosPort-F540,USBPRINT\FUJI_XEROXApeosPort-F540,FUJI_XEROXApeosPort-F540
+%Xerox_UPD_0% = Install_UNIVP_PS_NT60, WSDPRINT\FUJI_XEROXDocuCentreBAD5,USBPRINT\FUJI_XEROXDocuCentreBAD5,FUJI_XEROXDocuCentreBAD5
+%Xerox_UPD_0% = Install_UNIVP_PS_NT60, WSDPRINT\FUJI_XEROXDocuCentre26EA,USBPRINT\FUJI_XEROXDocuCentre26EA,FUJI_XEROXDocuCentre26EA
+%Xerox_UPD_0% = Install_UNIVP_PS_NT60, WSDPRINT\FUJI_XEROXDocuCentre84E9,USBPRINT\FUJI_XEROXDocuCentre84E9,FUJI_XEROXDocuCentre84E9
+%Xerox_UPD_0% = Install_UNIVP_PS_NT60, WSDPRINT\FUJI_XEROXDocuCentre325D,USBPRINT\FUJI_XEROXDocuCentre325D,FUJI_XEROXDocuCentre325D
+%Xerox_UPD_0% = Install_UNIVP_PS_NT60, WSDPRINT\FUJI_XEROXDocuCentre0E61,USBPRINT\FUJI_XEROXDocuCentre0E61,FUJI_XEROXDocuCentre0E61
+%Xerox_UPD_0% = Install_UNIVP_PS_NT60, WSDPRINT\FUJI_XEROXApeosPort-F6DC,USBPRINT\FUJI_XEROXApeosPort-F6DC,FUJI_XEROXApeosPort-F6DC
+%Xerox_UPD_0% = Install_UNIVP_PS_NT60, WSDPRINT\FUJI_XEROXApeosPort-CA8C,USBPRINT\FUJI_XEROXApeosPort-CA8C,FUJI_XEROXApeosPort-CA8C
+%Xerox_UPD_0% = Install_UNIVP_PS_NT60, WSDPRINT\FUJI_XEROXApeosPort-7F3C,USBPRINT\FUJI_XEROXApeosPort-7F3C,FUJI_XEROXApeosPort-7F3C
+%Xerox_UPD_0% = Install_UNIVP_PS_NT60, WSDPRINT\FUJI_XEROXApeosPort-416C,USBPRINT\FUJI_XEROXApeosPort-416C,FUJI_XEROXApeosPort-416C
+%Xerox_UPD_0% = Install_UNIVP_PS_NT60, WSDPRINT\FUJI_XEROXDocuCentre9487,USBPRINT\FUJI_XEROXDocuCentre9487,FUJI_XEROXDocuCentre9487
+%Xerox_UPD_0% = Install_UNIVP_PS_NT60, WSDPRINT\FUJI_XEROXDocuCentreA8D7,USBPRINT\FUJI_XEROXDocuCentreA8D7,FUJI_XEROXDocuCentreA8D7
+%Xerox_UPD_0% = Install_UNIVP_PS_NT60, WSDPRINT\FUJI_XEROXDocuCentre1D67,USBPRINT\FUJI_XEROXDocuCentre1D67,FUJI_XEROXDocuCentre1D67
+%Xerox_UPD_0% = Install_UNIVP_PS_NT60, WSDPRINT\FUJI_XEROXDocuCentre2137,USBPRINT\FUJI_XEROXDocuCentre2137,FUJI_XEROXDocuCentre2137
+%Xerox_UPD_0% = Install_UNIVP_PS_NT60, WSDPRINT\XeroxWorkCentre_52302994,USBPRINT\XeroxWorkCentre_52302994,XeroxWorkCentre_52302994
+%Xerox_UPD_0% = Install_UNIVP_PS_NT60, WSDPRINT\XeroxWorkCentre_5225BA55,USBPRINT\XeroxWorkCentre_5225BA55,XeroxWorkCentre_5225BA55
+%Xerox_UPD_0% = Install_UNIVP_PS_NT60, WSDPRINT\XeroxWorkCentre_52227814,USBPRINT\XeroxWorkCentre_52227814,XeroxWorkCentre_52227814
+%Xerox_UPD_0% = Install_UNIVP_PS_NT60, WSDPRINT\XeroxWorkCentre_52309FE8,USBPRINT\XeroxWorkCentre_52309FE8,XeroxWorkCentre_52309FE8
+%Xerox_UPD_0% = Install_UNIVP_PS_NT60, WSDPRINT\XeroxWorkCentre_52250FBA,USBPRINT\XeroxWorkCentre_52250FBA,XeroxWorkCentre_52250FBA
+%Xerox_UPD_0% = Install_UNIVP_PS_NT60, WSDPRINT\XeroxD95_Copier-Prin5DAA,USBPRINT\XeroxD95_Copier-Prin5DAA,XeroxD95_Copier-Prin5DAA
+%Xerox_UPD_0% = Install_UNIVP_PS_NT60, WSDPRINT\XeroxD110_Copier-PriD9D0,USBPRINT\XeroxD110_Copier-PriD9D0,XeroxD110_Copier-PriD9D0
+%Xerox_UPD_0% = Install_UNIVP_PS_NT60, WSDPRINT\XeroxD125_Copier-PriA362,USBPRINT\XeroxD125_Copier-PriA362,XeroxD125_Copier-PriA362
+%Xerox_UPD_0% = Install_UNIVP_PS_NT60, WSDPRINT\XeroxD95_Copier-Prin5DAA,USBPRINT\XeroxD95_Copier-Prin5DAA,XeroxD95_Copier-Prin5DAA
+%Xerox_UPD_0% = Install_UNIVP_PS_NT60, WSDPRINT\XeroxD110_Copier-PriD9D0,USBPRINT\XeroxD110_Copier-PriD9D0,XeroxD110_Copier-PriD9D0
+%Xerox_UPD_0% = Install_UNIVP_PS_NT60, WSDPRINT\XeroxD125_Copier-PriA362,USBPRINT\XeroxD125_Copier-PriA362,XeroxD125_Copier-PriA362
+%Xerox_UPD_0% = Install_UNIVP_PS_NT60, WSDPRINT\FUJI_XEROXD95_4D39,USBPRINT\FUJI_XEROXD95_4D39,FUJI_XEROXD95_4D39
+%Xerox_UPD_0% = Install_UNIVP_PS_NT60, WSDPRINT\FUJI_XEROXD110_ABC0,USBPRINT\FUJI_XEROXD110_ABC0,FUJI_XEROXD110_ABC0
+%Xerox_UPD_0% = Install_UNIVP_PS_NT60, WSDPRINT\FUJI_XEROXD125_FB31,USBPRINT\FUJI_XEROXD125_FB31,FUJI_XEROXD125_FB31
+%Xerox_UPD_0% = Install_UNIVP_PS_NT60, WSDPRINT\FUJI_XEROXD95F9CD,USBPRINT\FUJI_XEROXD95F9CD,FUJI_XEROXD95F9CD
+%Xerox_UPD_0% = Install_UNIVP_PS_NT60, WSDPRINT\FUJI_XEROXD11081BB,USBPRINT\FUJI_XEROXD11081BB,FUJI_XEROXD11081BB
+%Xerox_UPD_0% = Install_UNIVP_PS_NT60, WSDPRINT\FUJI_XEROXD110707B,USBPRINT\FUJI_XEROXD110707B,FUJI_XEROXD110707B
+%Xerox_UPD_0% = Install_UNIVP_PS_NT60, WSDPRINT\XeroxWorkCentre_743593B5,USBPRINT\XeroxWorkCentre_743593B5,XeroxWorkCentre_743593B5
+%Xerox_UPD_0% = Install_UNIVP_PS_NT60, WSDPRINT\XeroxWorkCentre_7428C675,USBPRINT\XeroxWorkCentre_7428C675,XeroxWorkCentre_7428C675
+%Xerox_UPD_0% = Install_UNIVP_PS_NT60, WSDPRINT\XeroxWorkCentre_742503B4,USBPRINT\XeroxWorkCentre_742503B4,XeroxWorkCentre_742503B4
+%Xerox_UPD_0% = Install_UNIVP_PS_NT60, WSDPRINT\XeroxWorkCentre_73466344,USBPRINT\XeroxWorkCentre_73466344,XeroxWorkCentre_73466344
+%Xerox_UPD_0% = Install_UNIVP_PS_NT60, WSDPRINT\XeroxWorkCentre_73456204,USBPRINT\XeroxWorkCentre_73456204,XeroxWorkCentre_73456204
+%Xerox_UPD_0% = Install_UNIVP_PS_NT60, WSDPRINT\XeroxWorkCentre_73355206,USBPRINT\XeroxWorkCentre_73355206,XeroxWorkCentre_73355206
+%Xerox_UPD_0% = Install_UNIVP_PS_NT60, WSDPRINT\XeroxWorkCentre_732807C6,USBPRINT\XeroxWorkCentre_732807C6,XeroxWorkCentre_732807C6
+%Xerox_UPD_0% = Install_UNIVP_PS_NT60, WSDPRINT\XeroxPhaser_361084DC,USBPRINT\XeroxPhaser_361084DC,XeroxPhaser_361084DC
+%Xerox_UPD_0% = Install_UNIVP_PS_NT60, WSDPRINT\XeroxWorkCentre_36150314,USBPRINT\XeroxWorkCentre_36150314,XeroxWorkCentre_36150314
+%Xerox_UPD_0% = Install_UNIVP_PS_NT60, WSDPRINT\FUJI_XEROXDocuCentre2A87,USBPRINT\FUJI_XEROXDocuCentre2A87,FUJI_XEROXDocuCentre2A87
+%Xerox_UPD_0% = Install_UNIVP_PS_NT60, WSDPRINT\FUJI_XEROXDocuCentre0746,USBPRINT\FUJI_XEROXDocuCentre0746,FUJI_XEROXDocuCentre0746
+%Xerox_UPD_0% = Install_UNIVP_PS_NT60, WSDPRINT\FUJI_XEROXDocuCentreDA87,USBPRINT\FUJI_XEROXDocuCentreDA87,FUJI_XEROXDocuCentreDA87
+%Xerox_UPD_0% = Install_UNIVP_PS_NT60, WSDPRINT\FUJI_XEROXDocuCentre7A84,USBPRINT\FUJI_XEROXDocuCentre7A84,FUJI_XEROXDocuCentre7A84
+%Xerox_UPD_0% = Install_UNIVP_PS_NT60, WSDPRINT\FUJI_XEROXDocuCentre0606,USBPRINT\FUJI_XEROXDocuCentre0606,FUJI_XEROXDocuCentre0606
+%Xerox_UPD_0% = Install_UNIVP_PS_NT60, WSDPRINT\XeroxWorkCentre_5335EA07,USBPRINT\XeroxWorkCentre_5335EA07,XeroxWorkCentre_5335EA07
+%Xerox_UPD_0% = Install_UNIVP_PS_NT60, WSDPRINT\XeroxWorkCentre_5330E9C7,USBPRINT\XeroxWorkCentre_5330E9C7,XeroxWorkCentre_5330E9C7
+%Xerox_UPD_0% = Install_UNIVP_PS_NT60, WSDPRINT\XeroxWorkCentre_53257A06,USBPRINT\XeroxWorkCentre_53257A06,XeroxWorkCentre_53257A06
+%Xerox_UPD_0% = Install_UNIVP_PS_NT60, WSDPRINT\FUJI_XEROXApeosPort-2FC6,USBPRINT\FUJI_XEROXApeosPort-2FC6,FUJI_XEROXApeosPort-2FC6
+%Xerox_UPD_0% = Install_UNIVP_PS_NT60, WSDPRINT\FUJI_XEROXApeosPort-1114,USBPRINT\FUJI_XEROXApeosPort-1114,FUJI_XEROXApeosPort-1114
+%Xerox_UPD_0% = Install_UNIVP_PS_NT60, WSDPRINT\FUJI_XEROXApeosPort-1394,USBPRINT\FUJI_XEROXApeosPort-1394,FUJI_XEROXApeosPort-1394
+%Xerox_UPD_0% = Install_UNIVP_PS_NT60, WSDPRINT\FUJI_XEROXApeosPort-A624,USBPRINT\FUJI_XEROXApeosPort-A624,FUJI_XEROXApeosPort-A624
+%Xerox_UPD_0% = Install_UNIVP_PS_NT60, WSDPRINT\FUJI_XEROXApeosPort-9A74,USBPRINT\FUJI_XEROXApeosPort-9A74,FUJI_XEROXApeosPort-9A74
+%Xerox_UPD_0% = Install_UNIVP_PS_NT60, WSDPRINT\FUJI_XEROXApeosPort-DE86,USBPRINT\FUJI_XEROXApeosPort-DE86,FUJI_XEROXApeosPort-DE86
+%Xerox_UPD_0% = Install_UNIVP_PS_NT60, WSDPRINT\FUJI_XEROXApeosPort-E204,USBPRINT\FUJI_XEROXApeosPort-E204,FUJI_XEROXApeosPort-E204
+%Xerox_UPD_0% = Install_UNIVP_PS_NT60, WSDPRINT\FUJI_XEROXDocuCentre3443,USBPRINT\FUJI_XEROXDocuCentre3443,FUJI_XEROXDocuCentre3443
+%Xerox_UPD_0% = Install_UNIVP_PS_NT60, WSDPRINT\FUJI_XEROXDocuCentre0A93,USBPRINT\FUJI_XEROXDocuCentre0A93,FUJI_XEROXDocuCentre0A93
+%Xerox_UPD_0% = Install_UNIVP_PS_NT60, WSDPRINT\FUJI_XEROXDocuCentre0813,USBPRINT\FUJI_XEROXDocuCentre0813,FUJI_XEROXDocuCentre0813
+%Xerox_UPD_0% = Install_UNIVP_PS_NT60, WSDPRINT\FUJI_XEROXDocuCentreBDA3,USBPRINT\FUJI_XEROXDocuCentreBDA3,FUJI_XEROXDocuCentreBDA3
+%Xerox_UPD_0% = Install_UNIVP_PS_NT60, WSDPRINT\FUJI_XEROXDocuCentre83F3,USBPRINT\FUJI_XEROXDocuCentre83F3,FUJI_XEROXDocuCentre83F3
+%Xerox_UPD_0% = Install_UNIVP_PS_NT60, WSDPRINT\FUJI_XEROXDocuCentreC503,USBPRINT\FUJI_XEROXDocuCentreC503,FUJI_XEROXDocuCentreC503
+%Xerox_UPD_0% = Install_UNIVP_PS_NT60, WSDPRINT\FUJI_XEROXDocuCentreF953,USBPRINT\FUJI_XEROXDocuCentreF953,FUJI_XEROXDocuCentreF953
+%Xerox_UPD_0% = Install_UNIVP_PS_NT60, WSDPRINT\FUJI_XEROXApeosPort-2FC6,USBPRINT\FUJI_XEROXApeosPort-2FC6,FUJI_XEROXApeosPort-2FC6
+%Xerox_UPD_0% = Install_UNIVP_PS_NT60, WSDPRINT\FUJI_XEROXApeosPort-1394,USBPRINT\FUJI_XEROXApeosPort-1394,FUJI_XEROXApeosPort-1394
+%Xerox_UPD_0% = Install_UNIVP_PS_NT60, WSDPRINT\FUJI_XEROXApeosPort-A624,USBPRINT\FUJI_XEROXApeosPort-A624,FUJI_XEROXApeosPort-A624
+%Xerox_UPD_0% = Install_UNIVP_PS_NT60, WSDPRINT\FUJI_XEROXApeosPort-9A74,USBPRINT\FUJI_XEROXApeosPort-9A74,FUJI_XEROXApeosPort-9A74
+%Xerox_UPD_0% = Install_UNIVP_PS_NT60, WSDPRINT\FUJI_XEROXApeosPort-DE86,USBPRINT\FUJI_XEROXApeosPort-DE86,FUJI_XEROXApeosPort-DE86
+%Xerox_UPD_0% = Install_UNIVP_PS_NT60, WSDPRINT\FUJI_XEROXApeosPort-E2D4,USBPRINT\FUJI_XEROXApeosPort-E2D4,FUJI_XEROXApeosPort-E2D4
+%Xerox_UPD_0% = Install_UNIVP_PS_NT60, WSDPRINT\FUJI_XEROXDocuCentre3443,USBPRINT\FUJI_XEROXDocuCentre3443,FUJI_XEROXDocuCentre3443
+%Xerox_UPD_0% = Install_UNIVP_PS_NT60, WSDPRINT\FUJI_XEROXDocuCentre0813,USBPRINT\FUJI_XEROXDocuCentre0813,FUJI_XEROXDocuCentre0813
+%Xerox_UPD_0% = Install_UNIVP_PS_NT60, WSDPRINT\FUJI_XEROXDocuCentreBDA3,USBPRINT\FUJI_XEROXDocuCentreBDA3,FUJI_XEROXDocuCentreBDA3
+%Xerox_UPD_0% = Install_UNIVP_PS_NT60, WSDPRINT\FUJI_XEROXDocuCentre83F3,USBPRINT\FUJI_XEROXDocuCentre83F3,FUJI_XEROXDocuCentre83F3
+%Xerox_UPD_0% = Install_UNIVP_PS_NT60, WSDPRINT\FUJI_XEROXDocuCentreC503,USBPRINT\FUJI_XEROXDocuCentreC503,FUJI_XEROXDocuCentreC503
+%Xerox_UPD_0% = Install_UNIVP_PS_NT60, WSDPRINT\FUJI_XEROXDocuCentreF953,USBPRINT\FUJI_XEROXDocuCentreF953,FUJI_XEROXDocuCentreF953
+%Xerox_UPD_0% = Install_UNIVP_PS_NT60, WSDPRINT\FUJI_XEROXDocuCentreD8F9,USBPRINT\FUJI_XEROXDocuCentreD8F9,FUJI_XEROXDocuCentreD8F9
+%Xerox_UPD_0% = Install_UNIVP_PS_NT60, WSDPRINT\FUJI_XEROXDocuCentre18C4,USBPRINT\FUJI_XEROXDocuCentre18C4,FUJI_XEROXDocuCentre18C4
+%Xerox_UPD_0% = Install_UNIVP_PS_NT60, WSDPRINT\FUJI_XEROXDocuCentre48C7,USBPRINT\FUJI_XEROXDocuCentre48C7,FUJI_XEROXDocuCentre48C7
+%Xerox_UPD_0% = Install_UNIVP_PS_NT60, WSDPRINT\FUJI_XEROXDocuCentreF800,USBPRINT\FUJI_XEROXDocuCentreF800,FUJI_XEROXDocuCentreF800
+%Xerox_UPD_0% = Install_UNIVP_PS_NT60, WSDPRINT\FUJI_XEROXDocuCentre0401,USBPRINT\FUJI_XEROXDocuCentre0401,FUJI_XEROXDocuCentre0401
+%Xerox_UPD_0% = Install_UNIVP_PS_NT60, WSDPRINT\FUJI_XEROXApeosPort-583C,USBPRINT\FUJI_XEROXApeosPort-583C,FUJI_XEROXApeosPort-583C
+%Xerox_UPD_0% = Install_UNIVP_PS_NT60, WSDPRINT\FUJI_XEROXDocuCentreA31F,USBPRINT\FUJI_XEROXDocuCentreA31F,FUJI_XEROXDocuCentreA31F
+%Xerox_UPD_0% = Install_UNIVP_PS_NT60, WSDPRINT\FUJI_XEROXDocuPrint_C962,USBPRINT\FUJI_XEROXDocuPrint_C962,FUJI_XEROXDocuPrint_C962
+%Xerox_UPD_0% = Install_UNIVP_PS_NT60, WSDPRINT\FUJI_XEROXApeosPort-B88E,USBPRINT\FUJI_XEROXApeosPort-B88E,FUJI_XEROXApeosPort-B88E
+%Xerox_UPD_0% = Install_UNIVP_PS_NT60, WSDPRINT\FUJI_XEROXApeosPort-78B3,USBPRINT\FUJI_XEROXApeosPort-78B3,FUJI_XEROXApeosPort-78B3
+%Xerox_UPD_0% = Install_UNIVP_PS_NT60, WSDPRINT\FUJI_XEROXDocuCentre1B54,USBPRINT\FUJI_XEROXDocuCentre1B54,FUJI_XEROXDocuCentre1B54
+%Xerox_UPD_0% = Install_UNIVP_PS_NT60, WSDPRINT\FUJI_XEROXDocuCentreDB69,USBPRINT\FUJI_XEROXDocuCentreDB69,FUJI_XEROXDocuCentreDB69
+%Xerox_UPD_0% = Install_UNIVP_PS_NT60, WSDPRINT\FUJI_XEROXApeosPort-4F81,USBPRINT\FUJI_XEROXApeosPort-4F81,FUJI_XEROXApeosPort-4F81
+%Xerox_UPD_0% = Install_UNIVP_PS_NT60, WSDPRINT\FUJI_XEROXApeosPort-B380,USBPRINT\FUJI_XEROXApeosPort-B380,FUJI_XEROXApeosPort-B380
+%Xerox_UPD_0% = Install_UNIVP_PS_NT60, WSDPRINT\FUJI_XEROXApeosPort-F780,USBPRINT\FUJI_XEROXApeosPort-F780,FUJI_XEROXApeosPort-F780
+%Xerox_UPD_0% = Install_UNIVP_PS_NT60, WSDPRINT\FUJI_XEROXDocuCentre5404,USBPRINT\FUJI_XEROXDocuCentre5404,FUJI_XEROXDocuCentre5404
+%Xerox_UPD_0% = Install_UNIVP_PS_NT60, WSDPRINT\FUJI_XEROXDocuCentreA805,USBPRINT\FUJI_XEROXDocuCentreA805,FUJI_XEROXDocuCentreA805
+%Xerox_UPD_0% = Install_UNIVP_PS_NT60, WSDPRINT\FUJI_XEROXDocuCentreEC05,USBPRINT\FUJI_XEROXDocuCentreEC05,FUJI_XEROXDocuCentreEC05
+%Xerox_UPD_0% = Install_UNIVP_PS_NT60, WSDPRINT\FUJI_XEROXApeosPort-BECF,USBPRINT\FUJI_XEROXApeosPort-BECF,FUJI_XEROXApeosPort-BECF
+%Xerox_UPD_0% = Install_UNIVP_PS_NT60, WSDPRINT\FUJI_XEROXApeosPort-2ECE,USBPRINT\FUJI_XEROXApeosPort-2ECE,FUJI_XEROXApeosPort-2ECE
+%Xerox_UPD_0% = Install_UNIVP_PS_NT60, WSDPRINT\FUJI_XEROXApeosPort-80F3,USBPRINT\FUJI_XEROXApeosPort-80F3,FUJI_XEROXApeosPort-80F3
+%Xerox_UPD_0% = Install_UNIVP_PS_NT60, WSDPRINT\FUJI_XEROXDocuCentre3D75,USBPRINT\FUJI_XEROXDocuCentre3D75,FUJI_XEROXDocuCentre3D75
+%Xerox_UPD_0% = Install_UNIVP_PS_NT60, WSDPRINT\FUJI_XEROXDocuCentreAD74,USBPRINT\FUJI_XEROXDocuCentreAD74,FUJI_XEROXDocuCentreAD74
+%Xerox_UPD_0% = Install_UNIVP_PS_NT60, WSDPRINT\FUJI_XEROXDocuCentre0149,USBPRINT\FUJI_XEROXDocuCentre0149,FUJI_XEROXDocuCentre0149
+%Xerox_UPD_0% = Install_UNIVP_PS_NT60, WSDPRINT\XeroxXerox_D136_CopiAFE2,USBPRINT\XeroxXerox_D136_CopiAFE2,XeroxXerox_D136_CopiAFE2
+%Xerox_UPD_0% = Install_UNIVP_PS_NT60, WSDPRINT\FUJI_XEROXD136_CB60,USBPRINT\FUJI_XEROXD136_CB60,FUJI_XEROXD136_CB60
+%Xerox_UPD_0% = Install_UNIVP_PS_NT60, WSDPRINT\FUJI_XEROXD136E13A,USBPRINT\FUJI_XEROXD136E13A,FUJI_XEROXD136E13A
+%Xerox_UPD_0% = Install_UNIVP_PS_NT60, WSDPRINT\XeroxiGen3_0D2D,USBPRINT\XeroxiGen3_0D2D,XeroxiGen3_0D2D
+%Xerox_UPD_0% = Install_UNIVP_PS_NT60, WSDPRINT\XeroxDOCUCOLOR_IGEN4DECF,USBPRINT\XeroxDOCUCOLOR_IGEN4DECF,XeroxDOCUCOLOR_IGEN4DECF
+%Xerox_UPD_0% = Install_UNIVP_PS_NT60, WSDPRINT\XeroxXerox_D95_CopieAF90,USBPRINT\XeroxXerox_D95_CopieAF90,XeroxXerox_D95_CopieAF90
+%Xerox_UPD_0% = Install_UNIVP_PS_NT60, WSDPRINT\XeroxXerox_D110_CopiADE3,USBPRINT\XeroxXerox_D110_CopiADE3,XeroxXerox_D110_CopiADE3
+%Xerox_UPD_0% = Install_UNIVP_PS_NT60, WSDPRINT\XeroxXerox_D125_Copi16D0,USBPRINT\XeroxXerox_D125_Copi16D0,XeroxXerox_D125_Copi16D0
+%Xerox_UPD_0% = Install_UNIVP_PS_NT60, WSDPRINT\XeroxXerox_D110_Prin4B0B,USBPRINT\XeroxXerox_D110_Prin4B0B,XeroxXerox_D110_Prin4B0B
+%Xerox_UPD_0% = Install_UNIVP_PS_NT60, WSDPRINT\XeroxXerox_D125_PrinD465,USBPRINT\XeroxXerox_D125_PrinD465,XeroxXerox_D125_PrinD465
+%Xerox_UPD_0% = Install_UNIVP_PS_NT60, WSDPRINT\XeroxPhaser_7500NE9A7,USBPRINT\XeroxPhaser_7500NE9A7,XeroxPhaser_7500NE9A7
+%Xerox_UPD_0% = Install_UNIVP_PS_NT60, WSDPRINT\XeroxPhaser_7500DN2E2E,USBPRINT\XeroxPhaser_7500DN2E2E,XeroxPhaser_7500DN2E2E
+%Xerox_UPD_0% = Install_UNIVP_PS_NT60, WSDPRINT\XeroxPhaser_7500DTE5AF,USBPRINT\XeroxPhaser_7500DTE5AF,XeroxPhaser_7500DTE5AF
+%Xerox_UPD_0% = Install_UNIVP_PS_NT60, WSDPRINT\XeroxPhaser_7500DXE0AF,USBPRINT\XeroxPhaser_7500DXE0AF,XeroxPhaser_7500DXE0AF
+%Xerox_UPD_0% = Install_UNIVP_PS_NT60, WSDPRINT\XeroxColorQube_8570N9201,USBPRINT\XeroxColorQube_8570N9201,XeroxColorQube_8570N9201
+%Xerox_UPD_0% = Install_UNIVP_PS_NT60, WSDPRINT\XeroxColorQube_8570D54D5,USBPRINT\XeroxColorQube_8570D54D5,XeroxColorQube_8570D54D5
+%Xerox_UPD_0% = Install_UNIVP_PS_NT60, WSDPRINT\XeroxColorQube_8570D9F54,USBPRINT\XeroxColorQube_8570D9F54,XeroxColorQube_8570D9F54
+%Xerox_UPD_0% = Install_UNIVP_PS_NT60, WSDPRINT\XeroxColorQube_8570D9A54,USBPRINT\XeroxColorQube_8570D9A54,XeroxColorQube_8570D9A54
+%Xerox_UPD_0% = Install_UNIVP_PS_NT60, WSDPRINT\XeroxColorQube_88708318,USBPRINT\XeroxColorQube_88708318,XeroxColorQube_88708318
+%Xerox_UPD_0% = Install_UNIVP_PS_NT60, WSDPRINT\Xerox_242/2A4BB,USBPRINT\Xerox_242/2A4BB,Xerox_242/2A4BB
+%Xerox_UPD_0% = Install_UNIVP_PS_NT60, WSDPRINT\Xerox_242/2A4BB,USBPRINT\Xerox_242/2A4BB,Xerox_242/2A4BB
+%Xerox_UPD_0% = Install_UNIVP_PS_NT60, WSDPRINT\XeroxNuvera_EA_DPS_3F19,USBPRINT\XeroxNuvera_EA_DPS_3F19,XeroxNuvera_EA_DPS_3F19
+%Xerox_UPD_0% = Install_UNIVP_PS_NT60, WSDPRINT\XeroxXerox_Color_J7501F2,USBPRINT\XeroxXerox_Color_J7501F2,XeroxXerox_Color_J7501F2
+%Xerox_UPD_0% = Install_UNIVP_PS_NT60, WSDPRINT\XeroxXerox_Color_C755198,USBPRINT\XeroxXerox_Color_C755198,XeroxXerox_Color_C755198
+%Xerox_UPD_0% = Install_UNIVP_PS_NT60, WSDPRINT\XeroxDocuTech_6100_EC36,USBPRINT\XeroxDocuTech_6100_EC36,XeroxDocuTech_6100_EC36
+%Xerox_UPD_0% = Install_UNIVP_PS_NT60, WSDPRINT\XeroxDocuTech_6115_7C64,USBPRINT\XeroxDocuTech_6115_7C64,XeroxDocuTech_6115_7C64
+%Xerox_UPD_0% = Install_UNIVP_PS_NT60, WSDPRINT\XeroxDocuTech_6135_BCC7,USBPRINT\XeroxDocuTech_6135_BCC7,XeroxDocuTech_6135_BCC7
+%Xerox_UPD_0% = Install_UNIVP_PS_NT60, WSDPRINT\XeroxDocuTech_6155_BD25,USBPRINT\XeroxDocuTech_6155_BD25,XeroxDocuTech_6155_BD25
+%Xerox_UPD_0% = Install_UNIVP_PS_NT60, WSDPRINT\XeroxDocuTech_6180_2EB7,USBPRINT\XeroxDocuTech_6180_2EB7,XeroxDocuTech_6180_2EB7
+%Xerox_UPD_0% = Install_UNIVP_PS_NT60, WSDPRINT\XeroxDocuPrint_100_811C,USBPRINT\XeroxDocuPrint_100_811C,XeroxDocuPrint_100_811C
+%Xerox_UPD_0% = Install_UNIVP_PS_NT60, WSDPRINT\XeroxDocuPrint_115_134E,USBPRINT\XeroxDocuPrint_115_134E,XeroxDocuPrint_115_134E
+%Xerox_UPD_0% = Install_UNIVP_PS_NT60, WSDPRINT\XeroxDocuPrint_135_D3EF,USBPRINT\XeroxDocuPrint_135_D3EF,XeroxDocuPrint_135_D3EF
+%Xerox_UPD_0% = Install_UNIVP_PS_NT60, WSDPRINT\XeroxDocuPrint_155_D20F,USBPRINT\XeroxDocuPrint_155_D20F,XeroxDocuPrint_155_D20F
+%Xerox_UPD_0% = Install_UNIVP_PS_NT60, WSDPRINT\XeroxDocuPrint_180_439D,USBPRINT\XeroxDocuPrint_180_439D,XeroxDocuPrint_180_439D
+%Xerox_UPD_0% = Install_UNIVP_PS_NT60, WSDPRINT\XeroxPhaser_332077CC,USBPRINT\XeroxPhaser_332077CC
+%Xerox_UPD_0% = Install_UNIVP_PS_NT60, WSDPRINT\XeroxWorkCentre_33150206, USBPRINT\XeroxWorkCentre_33150206
+%Xerox_UPD_0% = Install_UNIVP_PS_NT60, WSDPRINT\XeroxWorkCentre_3325F206, USBPRINT\XeroxWorkCentre_3325F206
+%Xerox_UPD_0% = Install_UNIVP_PS_NT60, WSDPRINT\XeroxWorkCentre_Pro_5FBF,USBPRINT\XeroxWorkCentre_Pro_5FBF,XeroxWorkCentre_Pro_5FBF
+%Xerox_UPD_0% = Install_UNIVP_PS_NT60, WSDPRINT\XeroxWorkCentre_Pro_CFBE,USBPRINT\XeroxWorkCentre_Pro_CFBE,XeroxWorkCentre_Pro_CFBE
+%Xerox_UPD_0% = Install_UNIVP_PS_NT60, WSDPRINT\XeroxWorkCentre_Pro_3FBE,USBPRINT\XeroxWorkCentre_Pro_3FBE,XeroxWorkCentre_Pro_3FBE
+%Xerox_UPD_0% = Install_UNIVP_PS_NT60, WSDPRINT\XeroxWorkCentre_Pro_AFBF,USBPRINT\XeroxWorkCentre_Pro_AFBF,XeroxWorkCentre_Pro_AFBF
+%Xerox_UPD_0% = Install_UNIVP_PS_NT60, WSDPRINT\XeroxWorkCentre_Pro_5A7C,USBPRINT\XeroxWorkCentre_Pro_5A7C,XeroxWorkCentre_Pro_5A7C
+%Xerox_UPD_0% = Install_UNIVP_PS_NT60, WSDPRINT\XeroxWorkCentre_Pro_5DFC,USBPRINT\XeroxWorkCentre_Pro_5DFC,XeroxWorkCentre_Pro_5DFC
+%Xerox_UPD_0% = Install_UNIVP_PS_NT60, WSDPRINT\XeroxWorkCentre_2754561,USBPRINT\XeroxWorkCentre_2754561,XeroxWorkCentre_2754561
+%Xerox_UPD_0% = Install_UNIVP_PS_NT60, WSDPRINT\XeroxWorkCentre_265D760,USBPRINT\XeroxWorkCentre_265D760,XeroxWorkCentre_265D760
+%Xerox_UPD_0% = Install_UNIVP_PS_NT60, WSDPRINT\XeroxWorkCentre_2552760,USBPRINT\XeroxWorkCentre_2552760,XeroxWorkCentre_2552760
+%Xerox_UPD_0% = Install_UNIVP_PS_NT60, WSDPRINT\XeroxWorkCentre_245B761,USBPRINT\XeroxWorkCentre_245B761,XeroxWorkCentre_245B761
+%Xerox_UPD_0% = Install_UNIVP_PS_NT60, WSDPRINT\XeroxWorkCentre_23840A2,USBPRINT\XeroxWorkCentre_23840A2,XeroxWorkCentre_23840A2
+%Xerox_UPD_0% = Install_UNIVP_PS_NT60, WSDPRINT\XeroxWorkCentre_2324722,USBPRINT\XeroxWorkCentre_2324722,XeroxWorkCentre_2324722
+%Xerox_UPD_0% = Install_UNIVP_PS_NT60, WSDPRINT\XeroxWorkCentre_41507A96,USBPRINT\XeroxWorkCentre_41507A96,XeroxWorkCentre_41507A96
+%Xerox_UPD_0% = Install_UNIVP_PS_NT60, WSDPRINT\XeroxWorkCentre_42608796,USBPRINT\XeroxWorkCentre_42608796,XeroxWorkCentre_42608796
+%Xerox_UPD_0% = Install_UNIVP_PS_NT60, WSDPRINT\XeroxWorkCentre_42507596,USBPRINT\XeroxWorkCentre_42507596,XeroxWorkCentre_42507596
+%Xerox_UPD_0% = Install_UNIVP_PS_NT60, WSDPRINT\XeroxPhaser_4600A35D,USBPRINT\XeroxPhaser_4600A35D,XeroxPhaser_4600A35D
+%Xerox_UPD_0% = Install_UNIVP_PS_NT60, WSDPRINT\XeroxPhaser_4620C35C,USBPRINT\XeroxPhaser_4620C35C,XeroxPhaser_4620C35C
+%Xerox_UPD_0% = Install_UNIVP_PS_NT60, WSDPRINT\XeroxPhaser_3635MFPDD78,USBPRINT\XeroxPhaser_3635MFPDD78,XeroxPhaser_3635MFPDD78
+%Xerox_UPD_0% = Install_UNIVP_PS_NT60, WSDPRINT\XeroxD136_Printer4CBB,USBPRINT\XeroxD136_Printer4CBB,XeroxD136_Printer4CBB
+%Xerox_UPD_0% = Install_UNIVP_PS_NT60, WSDPRINT\XeroxD136_Copier-PriD689,USBPRINT\XeroxD136_Copier-PriD689,XeroxD136_Copier-PriD689
+%Xerox_UPD_0% = Install_UNIVP_PS_NT60, WSDPRINT\XeroxColorQube_92034E7B,USBPRINT\XeroxColorQube_92034E7B,XeroxColorQube_92034E7B
+%Xerox_UPD_0% = Install_UNIVP_PS_NT60, WSDPRINT\XeroxColorQube_92028EBA,USBPRINT\XeroxColorQube_92028EBA,XeroxColorQube_92028EBA
+%Xerox_UPD_0% = Install_UNIVP_PS_NT60, WSDPRINT\XeroxColorQube_92018FFA,USBPRINT\XeroxColorQube_92018FFA,XeroxColorQube_92018FFA
+%Xerox_UPD_0% = Install_UNIVP_PS_NT60, WSDPRINT\XeroxWorkCentre_50504936,USBPRINT\XeroxWorkCentre_50504936,XeroxWorkCentre_50504936
+%Xerox_UPD_0% = Install_UNIVP_PS_NT60, WSDPRINT\XeroxWorkCentre_5030E935,USBPRINT\XeroxWorkCentre_5030E935,XeroxWorkCentre_5030E935
+%Xerox_UPD_0% = Install_UNIVP_PS_NT60, WSDPRINT\XeroxWorkCentre_Pro_4E62,USBPRINT\XeroxWorkCentre_Pro_4E62,XeroxWorkCentre_Pro_4E62
+%Xerox_UPD_0% = Install_UNIVP_PS_NT60, WSDPRINT\XeroxWorkCentre_Pro_DE63,USBPRINT\XeroxWorkCentre_Pro_DE63,XeroxWorkCentre_Pro_DE63
+%Xerox_UPD_0% = Install_UNIVP_PS_NT60, WSDPRINT\XeroxWorkCentre_Pro_EE61,USBPRINT\XeroxWorkCentre_Pro_EE61,XeroxWorkCentre_Pro_EE61
+%Xerox_UPD_0% = Install_UNIVP_PS_NT60, WSDPRINT\XeroxWorkCentre_M553ED0,USBPRINT\XeroxWorkCentre_M553ED0,XeroxWorkCentre_M553ED0
+%Xerox_UPD_0% = Install_UNIVP_PS_NT60, WSDPRINT\XeroxWorkCentre_M45AED1,USBPRINT\XeroxWorkCentre_M45AED1,XeroxWorkCentre_M45AED1
+%Xerox_UPD_0% = Install_UNIVP_PS_NT60, WSDPRINT\XeroxWorkCentre_M359ED3,USBPRINT\XeroxWorkCentre_M359ED3,XeroxWorkCentre_M359ED3
+%Xerox_UPD_0% = Install_UNIVP_PS_NT60, WSDPRINT\XeroxWorkCentre_76759316,USBPRINT\XeroxWorkCentre_76759316,XeroxWorkCentre_76759316
+%Xerox_UPD_0% = Install_UNIVP_PS_NT60, WSDPRINT\XeroxWorkCentre_76650317,USBPRINT\XeroxWorkCentre_76650317,XeroxWorkCentre_76650317
+%Xerox_UPD_0% = Install_UNIVP_PS_NT60, WSDPRINT\XeroxWorkCentre_7655F317,USBPRINT\XeroxWorkCentre_7655F317,XeroxWorkCentre_7655F317
+%Xerox_UPD_0% = Install_UNIVP_PS_NT60, WSDPRINT\XeroxWorkCentre_51508967,USBPRINT\XeroxWorkCentre_51508967,XeroxWorkCentre_51508967
+%Xerox_UPD_0% = Install_UNIVP_PS_NT60, WSDPRINT\XeroxWorkCentre_51352AA4,USBPRINT\XeroxWorkCentre_51352AA4,XeroxWorkCentre_51352AA4
+%Xerox_UPD_0% = Install_UNIVP_PS_NT60, WSDPRINT\XeroxWorkCentre_56871A93,USBPRINT\XeroxWorkCentre_56871A93,XeroxWorkCentre_56871A93
+%Xerox_UPD_0% = Install_UNIVP_PS_NT60, WSDPRINT\XeroxWorkCentre_56752B17,USBPRINT\XeroxWorkCentre_56752B17,XeroxWorkCentre_56752B17
+%Xerox_UPD_0% = Install_UNIVP_PS_NT60, WSDPRINT\XeroxWorkCentre_5665BB16,USBPRINT\XeroxWorkCentre_5665BB16,XeroxWorkCentre_5665BB16
+%Xerox_UPD_0% = Install_UNIVP_PS_NT60, WSDPRINT\XeroxWorkCentre_56554B16,USBPRINT\XeroxWorkCentre_56554B16,XeroxWorkCentre_56554B16
+%Xerox_UPD_0% = Install_UNIVP_PS_NT60, WSDPRINT\XeroxWorkCentre_5645DB17,USBPRINT\XeroxWorkCentre_5645DB17,XeroxWorkCentre_5645DB17
+%Xerox_UPD_0% = Install_UNIVP_PS_NT60, WSDPRINT\XeroxWorkCentre_56382ED4,USBPRINT\XeroxWorkCentre_56382ED4,XeroxWorkCentre_56382ED4
+%Xerox_UPD_0% = Install_UNIVP_PS_NT60, WSDPRINT\XeroxWorkCentre_56322954,USBPRINT\XeroxWorkCentre_56322954,XeroxWorkCentre_56322954
+%Xerox_UPD_0% = Install_UNIVP_PS_NT60, WSDPRINT\XeroxWorkCentre_57558B45,USBPRINT\XeroxWorkCentre_57558B45,XeroxWorkCentre_57558B45
+%Xerox_UPD_0% = Install_UNIVP_PS_NT60, WSDPRINT\XeroxWorkCentre_57451B44,USBPRINT\XeroxWorkCentre_57451B44,XeroxWorkCentre_57451B44
+%Xerox_UPD_0% = Install_UNIVP_PS_NT60, WSDPRINT\XeroxWorkCentre_57401884,USBPRINT\XeroxWorkCentre_57401884,XeroxWorkCentre_57401884
+%Xerox_UPD_0% = Install_UNIVP_PS_NT60, WSDPRINT\XeroxWorkCentre_57352B46,USBPRINT\XeroxWorkCentre_57352B46,XeroxWorkCentre_57352B46
+%Xerox_UPD_0% = Install_UNIVP_PS_NT60, WSDPRINT\XeroxWorkCentre_57908880,USBPRINT\XeroxWorkCentre_57908880,XeroxWorkCentre_57908880
+%Xerox_UPD_0% = Install_UNIVP_PS_NT60, WSDPRINT\XeroxWorkCentre_5775EB44,USBPRINT\XeroxWorkCentre_5775EB44,XeroxWorkCentre_5775EB44
+%Xerox_UPD_0% = Install_UNIVP_PS_NT60, WSDPRINT\XeroxWorkCentre_57657B45,USBPRINT\XeroxWorkCentre_57657B45,XeroxWorkCentre_57657B45
+%Xerox_UPD_0% = Install_UNIVP_PS_NT60, WSDPRINT\XeroxWorkCentre_M165BABE,USBPRINT\XeroxWorkCentre_M165BABE,XeroxWorkCentre_M165BABE
+%Xerox_UPD_0% = Install_UNIVP_PS_NT60, WSDPRINT\XeroxWorkCentre_M1752ABF,USBPRINT\XeroxWorkCentre_M1752ABF,XeroxWorkCentre_M1752ABF
+%Xerox_UPD_0% = Install_UNIVP_PS_NT60, WSDPRINT\XeroxWorkCentre_Pro_CF4E,USBPRINT\XeroxWorkCentre_Pro_CF4E,XeroxWorkCentre_Pro_CF4E
+%Xerox_UPD_0% = Install_UNIVP_PS_NT60, WSDPRINT\XeroxWorkCentre_Pro_5F4F,USBPRINT\XeroxWorkCentre_Pro_5F4F,XeroxWorkCentre_Pro_5F4F
+%Xerox_UPD_0% = Install_UNIVP_PS_NT60, WSDPRINT\XeroxMobile_Express_D002,USBPRINT\XeroxMobile_Express_D002,XeroxMobile_Express_D002
+%Xerox_UPD_0% = Install_UNIVP_PS_NT60, WSDPRINT\XeroxXerox_iGen_150_3A7E,USBPRINT\XeroxXerox_iGen_150_3A7E,XeroxXerox_iGen_150_3A7E
+%Xerox_UPD_1% = Install_UNIVP_PS_NT60, WSDPRINT\Xerox_HWID_GPD1,USBPRINT\Xerox_HWID_GPD1,Xerox_HWID_GPD1
+
+
+
+;
+; Install Sections
+;
+
+[Install_UNIVP_PS_NT60]
+
+DataFile=xUNIVPPL.p3p
+
+CoreDriverSections="{D20EA372-DD35-4950-9ED8-A6335AFE79F1},%PscriptOemCopyFiles%,PSCRIPT_DATA",  
+
+CopyFiles=COPY_DATA_FILES,COPY_NON_PKG_OEM_FILES,LANFAX_PKG_FILES
+[Install_UNIVP_PS_RedistPscript]
+
+CopyFiles=%PscriptCopySection%,COPY_DATA_FILES,COPY_NON_PKG_OEM_FILES,LANFAX_PKG_FILES
+DataFile=xUNIVPPL.p3p
+
+DataSection=Data_Pscript_Redist
+
+;
+; Copy Sections
+;
+
+[COPY_DATA_FILES]
+
+xUNIVPPL.p3p
+xUNIVPPL.ini
+xUNIVPPL.cfg
+
+x2UNIV.ppd
+
+[COPY_NON_PKG_OEM_FILES]
+x2upPL.dll
+x2rpsPL.dll
+x2wfuvPL.dll
+x2guiPL.dll
+x2corePL.dll
+x2utilPL.dll
+x2rnutPL.dll
+x2comsPL.dll
+x2jobtPL.exe
+x2ptpcPL.dll
+x2fputPL.dll
+x2txtPL.cab
+
+x2UNIVPL.cab 
+
+x2JARPL.cab
+
+x2fpbPL.exe
+
+xlibeay.dll
+
+[Copy_Pscript_FE_Redist]
+; Note: License requires installation of all these files as a set.
+
+ps5ui.dll
+pscript.hlp
+pscript.ntf
+pscript5.dll
+
+PS_SCHM.GDL
+
+pscrptfe.ntf 
+
+;
+;  Data Sections
+;
+
+[Data_Pscript_Redist]
+DriverFile=PSCRIPT5.DLL
+ConfigFile=PS5UI.DLL
+HelpFile=PSCRIPT.HLP
+
+;
+;  Location of source files not in Layout.inf.
+;
+
+[SourceDisksNames]
+100 = %Disk1%
+200 = %Disk1%
+
+[SourceDisksFiles]
+x2upPL.dll = 100
+x2rpsPL.dll = 100
+x2wfuvPL.dll = 100
+x2guiPL.dll = 100
+x2corePL.dll = 100
+x2utilPL.dll = 100
+x2rnutPL.dll = 100
+x2txtPL.cab = 100
+x2comsPL.dll = 100
+x2jobtPL.exe = 100
+x2ptpcPL.dll = 100
+x2fputPL.dll = 100
+
+x2UNIVPL.cab = 100
+
+x2JARPL.cab  = 100
+
+x2fpbPL.exe = 100
+x2fpd02.dll = 100
+
+xlibeay.dll  = 100
+
+xUNIVPPL.p3p = 100
+xUNIVPPL.ini = 100
+xUNIVPPL.cfg = 100
+
+x2UNIV.ppd = 100
+
+ps5ui.dll = 200
+pscript.hlp = 200
+pscript.ntf = 200
+pscript5.dll = 200
+
+PS_SCHM.GDL = 200
+
+pscrptfe.ntf = 200
+
+;
+; Destination Directories
+;
+
+[DestinationDirs]
+DefaultDestDir=66000
+
+;
+; Localizable Strings
+;
+[Strings]
+Disk1="Xerox Global Print Driver"
+
+PscriptCopySection="Copy_Pscript_FE_Redist"
+PscriptOemCopyFiles="PSCRIPT_FE.OEM"
+
+Xerox_UPD_0="Xerox Global Print Driver PS"
+Xerox_UPD_1="Xerox GPD PS V3.3.347.6.0"
